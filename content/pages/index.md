@@ -312,7 +312,7 @@ sections:
       subtitle:
         textAlign: left
   - title:
-      text: MEI e Outros
+      text: MEI
       color: text-dark
       type: TitleBlock
     subtitle: Conheça detalhes dos planos
