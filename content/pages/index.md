@@ -90,10 +90,9 @@ sections:
               borderRadius: x-large
       - title: 100%
         subtitle: Segurança Total
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Tudo o que contrata conosco é exatamente o que receberá. Não existem
+          letras pequenas.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
