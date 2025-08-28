@@ -394,9 +394,7 @@ sections:
     title: null
     subtitle: O que os nossos clientes dizem sobre nós
     items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
+      - title: Wowwww
         tagline: Testemunho
         subtitle: 'Maria Walters, Company'
         text: >-
