@@ -36,7 +36,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Família Feliz é Família Segura
       color: text-primary
       type: Badge
     elementId: ''
