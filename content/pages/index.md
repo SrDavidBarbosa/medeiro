@@ -353,7 +353,7 @@ sections:
     text: |
       A serviço da vida, a segurança não tem idade idade.
     actions:
-      - label: Get started
+      - label: Saber mais
         url: /
         icon: arrowRight
         iconPosition: right
