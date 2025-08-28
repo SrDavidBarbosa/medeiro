@@ -31,9 +31,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: >-
-        /images/gemini-2.5-flash-image-preview
-        (nano-banana)_MEDEIRO_a_Brazilian_.png
+      url: /images/brand medeiro happy family.png
       altText: Uma vida mais tranquila
       elementId: ''
       type: ImageBlock
