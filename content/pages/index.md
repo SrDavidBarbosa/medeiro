@@ -32,7 +32,7 @@ sections:
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      altText: Uma vida mais tranquila
       elementId: ''
       type: ImageBlock
     badge:
