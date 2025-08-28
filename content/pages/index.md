@@ -114,10 +114,9 @@ sections:
         type: FeaturedItem
       - title: 2x
         subtitle: Mais rápidos
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Estamos comprometidos com você. Temos toda a agilidade necessária para
+          tramitar seu contrato.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
