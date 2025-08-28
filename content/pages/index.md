@@ -63,10 +63,9 @@ sections:
       - type: FeaturedItem
         title: 500k
         subtitle: Clientes Satisfeitos
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Em todo o pais estamos presente. Nossos planos são para todos, pessoas
+          físicas e empresas, pequenas ou grandes empresas.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
