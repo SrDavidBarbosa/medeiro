@@ -61,7 +61,7 @@ sections:
     subtitle: Os números falam por si mesmo
     items:
       - type: FeaturedItem
-        title: 500k
+        title: 100k
         subtitle: Clientes Satisfeitos
         text: >
           Em todo o pais estamos presente. Nossos planos são para todos, pessoas
