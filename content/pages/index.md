@@ -396,7 +396,7 @@ sections:
     items:
       - title: Wowwww
         tagline: Testemunho
-        subtitle: 'Maria Walters, Company'
+        subtitle: 'Maria Walters, Vale'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
