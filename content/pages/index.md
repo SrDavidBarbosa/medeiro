@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Seguro de vida como deve ser
       color: text-dark
       type: TitleBlock
     subtitle: Segurança para quem você ama
