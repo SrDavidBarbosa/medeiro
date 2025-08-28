@@ -9,9 +9,8 @@ sections:
       type: TitleBlock
     subtitle: Segurança para quem você ama
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Descubra o melhor plano para sua vida e para cada um daqueles que importam
+      muito para você.
     actions:
       - label: Saber mais
         altText: ''
