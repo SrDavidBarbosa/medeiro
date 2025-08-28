@@ -232,11 +232,10 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: Faça sua cotação
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+      Garantimos preço, qualidade e segurança. Somos especialistas em
+      entregar-te o melhor seguro de saúde com as condições que encaixam com sua
+      necessidade.
     media:
       title: Title of the video
       url: /images/placeholder-video.mp4
