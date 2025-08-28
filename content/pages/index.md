@@ -340,7 +340,7 @@ sections:
       altText: Fun feature preview
       type: ImageBlock
     badge:
-      label: Siga-nos nas redes sociais
+      label: Plano feito para os pequenos
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
