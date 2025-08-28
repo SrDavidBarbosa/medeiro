@@ -135,7 +135,7 @@ sections:
             flexDirection: row
         type: FeaturedItem
     actions:
-      - label: Get started
+      - label: Conhecer Planos
         altText: ''
         url: /
         showIcon: false
