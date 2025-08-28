@@ -1,15 +1,15 @@
 {
     "logo": {
-        "url": "/images/logo-white.svg",
+        "url": "/images/logo medeiro 120px.png",
         "altText": "Logo light",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "Seguros de Vida\n",
     "primaryLinks": {
-        "title": "Product",
+        "title": "ProductOS",
         "links": [
             {
-                "label": "Features",
+                "label": "Características",
                 "altText": "Features page",
                 "url": "/",
                 "icon": "arrowRight",
@@ -18,7 +18,7 @@
                 "type": "Link"
             },
             {
-                "label": "Pricing",
+                "label": "Planos",
                 "url": "/pricing",
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -26,7 +26,7 @@
                 "type": "Link"
             },
             {
-                "label": "Documentation",
+                "label": "Documentação",
                 "url": "/",
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -37,10 +37,10 @@
         "type": "FooterLinksGroup"
     },
     "secondaryLinks": {
-        "title": "Company",
+        "title": "MEDEIRO",
         "links": [
             {
-                "label": "Careers",
+                "label": "Quem somos",
                 "altText": "careers page",
                 "url": "/careers",
                 "icon": "arrowRight",
@@ -87,7 +87,7 @@
     ],
     "legalLinks": [
         {
-            "label": "Terms",
+            "label": "Termos",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -95,7 +95,7 @@
             "type": "Link"
         },
         {
-            "label": "Privacy",
+            "label": "Privacidade",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -103,7 +103,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify](https://www.netlify.com/)\n",
+    "copyrightText": "by [DSB](https://www.instagram.com/davidsbarbosa)\n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }

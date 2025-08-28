@@ -579,13 +579,13 @@ sections:
       subtitle:
         textAlign: center
   - title:
-      text: List of features here
+      text: Lista de recursos aqui
       color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: Compare os planos
     items:
       - title: Feature Item One
         tagline: This is the tagline
@@ -671,35 +671,32 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
   - title:
-      text: Generic Section With A Form
+      text: Não existe dúvidas "bobas"
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    subtitle: Nosso time está preparado
+    text: |
+      Responderemos seu contato o mais breve possível.
     media:
       fields:
         - name: name
-          label: Name
+          label: Nome
           hideLabel: true
-          placeholder: Your name
+          placeholder: Seu Nome
           isRequired: true
           width: full
           type: TextFormControl
         - name: email
           label: Email
           hideLabel: true
-          placeholder: Your email
+          placeholder: Seu email
           isRequired: true
           width: full
           type: EmailFormControl
         - name: message
-          label: Message
+          label: Mensagem
           hideLabel: true
-          placeholder: Your message
+          placeholder: Sua mensagem
           width: full
           type: TextareaFormControl
       elementId: contact-form
@@ -717,14 +714,14 @@ sections:
       type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Enviar
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: null
     badge:
-      label: Contact Us
+      label: Fale Conosco
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
