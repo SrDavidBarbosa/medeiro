@@ -682,7 +682,7 @@ sections:
         - name: nome
           label: Nome
           hideLabel: true
-          placeholder: Your name
+          placeholder: Seu Nome
           isRequired: true
           width: full
           type: TextFormControl
