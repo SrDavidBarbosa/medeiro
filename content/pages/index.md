@@ -350,9 +350,8 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: De todas as idades
-    text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+    text: |
+      A serviço da vida, a segurança não tem idade idade.
     actions:
       - label: Get started
         url: /
