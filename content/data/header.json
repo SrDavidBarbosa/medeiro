@@ -1,17 +1,20 @@
 {
     "logo": {
-        "url": "/images/logo-dark.svg",
-        "altText": "Logo dark",
+        "url": "/images/logo medeiro 120px.png",
+        "altText": "MEDEIRO",
         "styles": {
             "self": {
-                "margin": ["mr-3"]
+                "margin": [
+                    "mr-3"
+                ]
             }
         },
-        "type": "ImageBlock"
+        "type": "ImageBlock",
+        "elementId": "logo"
     },
     "primaryLinks": [
         {
-            "label": "Pricing",
+            "label": "Planos",
             "url": "/pricing",
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -28,7 +31,7 @@
             "type": "Link"
         },
         {
-            "label": "Careers",
+            "label": "Calculadora",
             "altText": "Careers page",
             "url": "/careers",
             "icon": "arrowRight",
@@ -37,7 +40,7 @@
             "type": "Link"
         },
         {
-            "label": "Dropdown",
+            "label": "Seguradoras",
             "altText": "Dropdown",
             "links": [
                 {
@@ -71,7 +74,7 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Sign up",
+            "label": "Registrar",
             "altText": "Sign up",
             "url": "https://app.netlify.com/signup",
             "icon": "arrowRight",
@@ -80,7 +83,7 @@
             "type": "Button"
         },
         {
-            "label": "Log in",
+            "label": "Entrar",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",

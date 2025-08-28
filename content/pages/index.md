@@ -4,16 +4,15 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Seguro de vida como deve ser
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Segurança para quem você ama
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Descubra o melhor plano para sua vida e para cada um daqueles que importam
+      muito para você.
     actions:
-      - label: Get started
+      - label: Saber mais
         altText: ''
         url: /
         showIcon: false
@@ -22,7 +21,7 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
+      - label: Ver Planos
         altText: ''
         url: /
         showIcon: true
@@ -32,12 +31,12 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      url: /images/brand medeiro happy family.png
+      altText: Uma vida mais tranquila
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Família Feliz é Família Segura
       color: text-primary
       type: Badge
     elementId: ''
@@ -53,21 +52,20 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Principais Benefícios
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Os números falam por si mesmo
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        title: 100k
+        subtitle: Clientes Satisfeitos
+        text: >
+          Em todo o pais estamos presente. Nossos planos são para todos, pessoas
+          físicas e empresas, pequenas ou grandes empresas.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -90,12 +88,11 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - title: 100%
+        subtitle: Segurança Total
+        text: >
+          Tudo o que contrata conosco é exatamente o que receberá. Não existem
+          letras pequenas.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
@@ -115,12 +112,11 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - title: 2x
+        subtitle: Mais rápidos
+        text: >
+          Estamos comprometidos com você. Temos toda a agilidade necessária para
+          tramitar seu contrato.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
@@ -139,7 +135,7 @@ sections:
             flexDirection: row
         type: FeaturedItem
     actions:
-      - label: Get started
+      - label: Conhecer Planos
         altText: ''
         url: /
         showIcon: false
@@ -149,7 +145,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: Temos muito mais
       color: text-primary
       styles:
         self:
@@ -168,7 +164,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
+  - subtitle: Empresas que confiam em nós
     images:
       - url: /images/empathy-logo.svg
         altText: Empathy logo
@@ -229,18 +225,17 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: Grow your business 10x faster
+      text: Tenha seu plano ainda mais barato conosco
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    subtitle: Faça sua cotação
+    text: >
+      Garantimos preço, qualidade e segurança. Somos especialistas em
+      entregar-te o melhor seguro de saúde com as condições que encaixam com sua
+      necessidade.
     media:
       title: Title of the video
       url: /images/placeholder-video.mp4
@@ -262,7 +257,7 @@ sections:
       loop: true
       muted: true
     badge:
-      label: Key Benefits
+      label: Principais Benefícios
       color: text-primary
       styles:
         self:
@@ -278,18 +273,15 @@ sections:
     type: GenericSection
   - type: GenericSection
     title:
-      text: Generic section with a video
+      text: Grandes Equipes
       color: text-dark
       styles:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    subtitle: Os melhores planos
+    text: |
+      Equipe seu time com segurança total!
     actions: []
     media:
       title: Title of the video
@@ -320,13 +312,12 @@ sections:
       subtitle:
         textAlign: left
   - title:
-      text: Social Media Management
+      text: MEI
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
-    text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+    subtitle: Conheça detalhes dos planos
+    text: |
+      O plano perfeito para pequenas empresas!
     actions:
       - label: Get started
         url: /
@@ -346,7 +337,7 @@ sections:
       altText: Fun feature preview
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Plano feito para os pequenos
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -355,21 +346,20 @@ sections:
         alignItems: center
     type: GenericSection
   - title:
-      text: Business Consulting
+      text: Pessoas
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
-    text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+    subtitle: De todas as idades
+    text: |
+      A serviço da vida, a segurança não tem idade idade.
     actions:
-      - label: Get started
+      - label: Saber mais
         url: /
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
+      - label: Ver Planos
         url: /
         showIcon: true
         icon: arrowRight
@@ -381,7 +371,7 @@ sections:
       altText: Dope design preview
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: PLANO FEITO PARA VOCÊ
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -402,17 +392,13 @@ sections:
     type: DividerSection
   - type: CarouselSection
     title: null
-    subtitle: What our customers say about us
+    subtitle: O que os nossos clientes dizem sobre nós
     items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - title: Wowwww
+        tagline: Testemunho
+        subtitle: 'Maria Walters, Vale'
+        text: |
+          A medida exata do seguro que precisávamos.
         image:
           url: /images/person-placeholder-light.png
           altText: Maria Walters
@@ -435,7 +421,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
+          "Design is a plan for arranging elements in such a way as best to
+          accomplish a particular purpose."
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
         text: >-
@@ -464,7 +451,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
+          "Design is how it works, how it functions. Good design doesn't just
+          make a product aesthetically pleasing, it makes it a pleasure to use."
         tagline: Testimonial 3
         subtitle: 'Maria Walters, Company'
         text: >-
@@ -523,7 +511,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
+          "Design can be art. Design can be aesthetics. Design is so simple,
+          that's why it is so complicated."
         tagline: Testimonial 5
         subtitle: 'Jane Walters, Company'
         text: >-
@@ -552,7 +541,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
+          “Quote from some important person goes right here. I love using
+          Netlify Create.”
         tagline: Testimonial 6
         subtitle: 'Jane Doe, Company'
         text: >-
@@ -646,8 +636,9 @@ sections:
       - title: Feature Item Three
         tagline: This is the tagline
         subtitle: This is the item subtitle
-        text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
+        text: >
+          Learn from the tutorial and build your first awesome Netlify Create
+          site.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder image
@@ -739,8 +730,8 @@ sections:
     colors: bg-light-fg-dark
     type: GenericSection
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
+  metaTitle: Medeiro
+  metaDescription: Descubra os melhores planos de saúde e seguro de vida.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
