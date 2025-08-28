@@ -58,7 +58,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Os números falam por si mesmo
     items:
       - type: FeaturedItem
         title: 500k
