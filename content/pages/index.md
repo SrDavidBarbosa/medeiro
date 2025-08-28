@@ -31,7 +31,9 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
+      url: >-
+        /images/gemini-2.5-flash-image-preview
+        (nano-banana)_MEDEIRO_a_Brazilian_.png
       altText: Uma vida mais tranquila
       elementId: ''
       type: ImageBlock
