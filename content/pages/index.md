@@ -315,7 +315,7 @@ sections:
       subtitle:
         textAlign: left
   - title:
-      text: Estamos nas redes
+      text: MEI e Outros
       color: text-dark
       type: TitleBlock
     subtitle: Conheça detalhes dos planos
