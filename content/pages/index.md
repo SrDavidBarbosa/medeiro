@@ -680,7 +680,7 @@ sections:
     media:
       fields:
         - name: nome
-          label: Name
+          label: Nome
           hideLabel: true
           placeholder: Your name
           isRequired: true
