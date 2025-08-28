@@ -341,7 +341,7 @@ sections:
       altText: Fun feature preview
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Siga-nos nas redes sociais
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
