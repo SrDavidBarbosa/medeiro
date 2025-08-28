@@ -273,7 +273,7 @@ sections:
     type: GenericSection
   - type: GenericSection
     title:
-      text: Grande
+      text: Grandes Equipes
       color: text-dark
       styles:
         self:
