@@ -372,7 +372,7 @@ sections:
       altText: Dope design preview
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: PLANO FEITO PARA VOCÊ
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
