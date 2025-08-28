@@ -679,7 +679,7 @@ sections:
       Responderemos seu contato o mais breve possível.
     media:
       fields:
-        - name: name
+        - name: nome
           label: Name
           hideLabel: true
           placeholder: Your name
