@@ -119,7 +119,7 @@
         {
             "label": "Tabela",
             "url": "/",
-            "icon": "shoppingBag",
+            "icon": "chevronBigRight",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Button",
