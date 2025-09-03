@@ -123,7 +123,8 @@
             "iconPosition": "right",
             "style": "secondary",
             "type": "Button",
-            "altText": "Tabela de Preços"
+            "altText": "Tabela de Preços",
+            "showIcon": true
         }
     ],
     "variant": "logo-left-primary-nav-centered",
