@@ -111,7 +111,7 @@
             "url": "#",
             "icon": "chevronBigLeft",
             "iconPosition": "right",
-            "style": "primary",
+            "style": "secondary",
             "type": "Button",
             "showIcon": true
         },
