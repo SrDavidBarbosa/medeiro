@@ -113,7 +113,7 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: Odonto e Saúde
-        subtitle: Mais rápidos
+        subtitle: Em um só lugar
         text: >
           Estamos comprometidos com você. Temos toda a agilidade necessária para
           tramitar seu contrato.
