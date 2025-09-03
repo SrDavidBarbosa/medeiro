@@ -110,7 +110,7 @@
             "altText": "cotação",
             "url": "#",
             "icon": "chevronBigLeft",
-            "iconPosition": "left",
+            "iconPosition": "right",
             "style": "secondary",
             "type": "Button",
             "showIcon": true
