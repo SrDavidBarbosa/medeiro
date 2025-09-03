@@ -108,7 +108,7 @@
         {
             "label": "Fazer Cotação",
             "altText": "cotação",
-            "url": "https://app.netlify.com/signup",
+            "url": "#",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
