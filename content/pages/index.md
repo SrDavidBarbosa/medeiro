@@ -112,7 +112,7 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 2x
+      - title: Odonto e Saúde
         subtitle: Mais rápidos
         text: >
           Estamos comprometidos com você. Temos toda a agilidade necessária para
