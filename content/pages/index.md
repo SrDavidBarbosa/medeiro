@@ -61,7 +61,7 @@ sections:
     subtitle: Por que escolher a Medeiro?
     items:
       - type: FeaturedItem
-        title: 100k
+        title: Atendimento
         subtitle: Clientes Satisfeitos
         text: >
           Em todo o pais estamos presente. Nossos planos são para todos, pessoas
