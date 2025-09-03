@@ -114,7 +114,7 @@
             "style": "primary",
             "type": "Button",
             "showIcon": true,
-            "elementId": ""
+            "elementId": "head-quote-button"
         },
         {
             "label": "Entrar",
