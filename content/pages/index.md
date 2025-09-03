@@ -53,7 +53,7 @@ sections:
   - type: FeaturedItemsSection
     title:
       type: TitleBlock
-      text: Porque escolher a Medeiro
+      text: Porque escolher a Medeiro?
       color: text-primary
       styles:
         self:
