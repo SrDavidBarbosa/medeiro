@@ -58,7 +58,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Featured items section subtitle
+    subtitle: Diferenciais que se notam
     items:
       - type: FeaturedItem
         title: Atendimento Humanizado
