@@ -86,7 +86,7 @@ sections:
             flexDirection: row
       - type: FeaturedItem
         title: Cobertura Nacional
-        tagline: This is the tagline
+        tagline: Território
         subtitle: This is the item subtitle
         text: |
           Follow the tutorial to build your first awesome Netlify Create site.
