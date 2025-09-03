@@ -109,7 +109,7 @@
             "label": "Fazer Cotação",
             "altText": "cotação",
             "url": "#",
-            "icon": "arrowRight",
+            "icon": "chevronBigLeft",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Button",
