@@ -7,7 +7,7 @@ sections:
       text: Planos de Saúde e Odontológicos que cabem no seu bolso
       color: text-dark
       type: TitleBlock
-    subtitle: Segurança para quem você ama
+    subtitle: 'Atendimento rápido, rede nacional e preços acessíveis'
     text: >
       Descubra o melhor plano para sua vida e para cada um daqueles que importam
       muito para você.
