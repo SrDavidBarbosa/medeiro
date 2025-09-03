@@ -42,7 +42,7 @@
         {
             "type": "SubNav",
             "label": "Saúde",
-            "altText": "Dropdown",
+            "altText": "Planos de Saúde",
             "links": [
                 {
                     "type": "Link",
