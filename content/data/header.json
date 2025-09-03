@@ -31,15 +31,6 @@
             "type": "Link"
         },
         {
-            "label": "Odonto",
-            "altText": "planos de saúde",
-            "url": "/careers",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
             "type": "SubNav",
             "label": "Saúde",
             "altText": "Planos de Saúde",
