@@ -114,7 +114,7 @@
             "style": "primary",
             "type": "Button",
             "showIcon": true,
-            "elementId": "head-quote-button"
+            "elementId": "button-quote-head"
         },
         {
             "label": "Tabela",
