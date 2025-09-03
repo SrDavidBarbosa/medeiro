@@ -13,7 +13,7 @@ sections:
       muito para você.
     actions:
       - label: Fale no WhatsApp
-        altText: ''
+        altText: Contatar via WhatsApp
         url: /
         showIcon: false
         icon: arrowRight
