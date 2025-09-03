@@ -49,7 +49,7 @@
     "h6": {
         "size": "lg",
         "weight": "normal",
-        "decoration": "underline",
+        "decoration": "none",
         "case": "none",
         "letterSpacing": "normal",
         "type": "ThemeStyleHeading"
