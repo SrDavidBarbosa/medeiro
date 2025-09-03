@@ -89,7 +89,7 @@ sections:
             self:
               borderRadius: x-large
       - title: Cobertura
-        subtitle: Segurança Total
+        subtitle: Nacional
         text: >
           Tudo o que contrata conosco é exatamente o que receberá. Não existem
           letras pequenas.
