@@ -12,7 +12,7 @@ sections:
       Descubra o melhor plano para sua vida e para cada um daqueles que importam
       muito para você.
     actions:
-      - label: Saber mais
+      - label: Fale no WhatsApp
         altText: ''
         url: /
         showIcon: false
