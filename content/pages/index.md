@@ -58,7 +58,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Os números falam por si mesmo
+    subtitle: Por que escolher a Medeiro?
     items:
       - type: FeaturedItem
         title: 100k
