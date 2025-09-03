@@ -728,7 +728,7 @@ sections:
     type: GenericSection
 seo:
   metaTitle: Medeiro
-  metaDescription: Descubra os melhores planos de saúde e seguro de vida.
+  metaDescription: Descubra o plano de saúde perfeito para você.
   socialImage: /images/main-hero.jpg
   type: Seo
   addTitleSuffix: true
