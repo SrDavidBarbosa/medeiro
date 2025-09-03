@@ -22,7 +22,7 @@ sections:
         elementId: ''
         type: Button
       - label: SIMULE AGORA
-        altText: ''
+        altText: Simular Contratação
         url: /
         showIcon: true
         icon: arrowRight
