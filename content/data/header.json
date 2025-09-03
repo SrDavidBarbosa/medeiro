@@ -106,7 +106,7 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Registrar",
+            "label": "Fazer Cotação",
             "altText": "Sign up",
             "url": "https://app.netlify.com/signup",
             "icon": "arrowRight",
