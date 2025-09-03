@@ -113,7 +113,8 @@
             "iconPosition": "right",
             "style": "primary",
             "type": "Button",
-            "showIcon": true
+            "showIcon": true,
+            "elementId": "co"
         },
         {
             "label": "Entrar",
