@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Seguro de vida como deve ser
+      text: Planos de Saúde e Odontológicos que cabem no seu bolso
       color: text-dark
       type: TitleBlock
     subtitle: Segurança para quem você ama
