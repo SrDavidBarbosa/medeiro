@@ -8,9 +8,8 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: 'Atendimento rápido, rede nacional e preços acessíveis'
-    text: |+
-      ###### *O melhor plano, porque a saúde vem em primeiro lugar.*
-
+    text: |
+      ######*O melhor plano, porque a saúde vem em primeiro lugar.*
     actions:
       - label: Fale no WhatsApp
         altText: Contatar via WhatsApp
