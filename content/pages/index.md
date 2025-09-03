@@ -731,5 +731,6 @@ seo:
   metaDescription: Descubra os melhores planos de saúde e seguro de vida.
   socialImage: /images/main-hero.jpg
   type: Seo
+  addTitleSuffix: true
 type: PageLayout
 ---
