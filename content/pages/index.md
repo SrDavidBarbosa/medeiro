@@ -62,7 +62,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Atendimento
-        subtitle: Clientes Satisfeitos
+        subtitle: Humanizado
         text: >
           Em todo o pais estamos presente. Nossos planos são para todos, pessoas
           físicas e empresas, pequenas ou grandes empresas.
