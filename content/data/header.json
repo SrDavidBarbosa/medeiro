@@ -124,7 +124,8 @@
             "style": "secondary",
             "type": "Button",
             "altText": "Tabela de Preços",
-            "showIcon": true
+            "showIcon": true,
+            "elementId": "/"
         }
     ],
     "variant": "logo-left-primary-nav-centered",
