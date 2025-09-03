@@ -117,7 +117,7 @@
             "elementId": "head-quote-button"
         },
         {
-            "label": "Entrar",
+            "label": "Tabela",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
