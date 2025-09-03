@@ -88,7 +88,7 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 100%
+      - title: Cobertura
         subtitle: Segurança Total
         text: >
           Tudo o que contrata conosco é exatamente o que receberá. Não existem
