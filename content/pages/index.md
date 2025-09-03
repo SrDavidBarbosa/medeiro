@@ -109,7 +109,7 @@ sections:
             borderRadius: x-large
             flexDirection: row
       - type: FeaturedItem
-        title: Feature Item Three
+        title: Odonto e Saúde em um só lugar.
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: |
