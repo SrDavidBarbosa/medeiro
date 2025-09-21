@@ -1,6 +1,6 @@
 ---
 title: Planos
-slug: /planos/
+slug: planos
 sections:
   # HERO DOS PLANOS
   - type: GenericSection
