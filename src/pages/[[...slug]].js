@@ -17,7 +17,11 @@ function Page(props) {
                 </Head>
                 <main style={{ padding: '4rem', textAlign: 'center' }}>
                     <h1>Erro ao carregar página</h1>
-                    <p>Esta página não possui um tipo/modelo válido.<br />Verifique o conteúdo ou entre em contato com o suporte.</p>
+                    <p>
+                        Esta página não possui um tipo/modelo válido.
+                        <br />
+                        Verifique o conteúdo ou entre em contato com o suporte.
+                    </p>
                 </main>
             </>
         );
@@ -31,7 +35,9 @@ function Page(props) {
                 </Head>
                 <main style={{ padding: '4rem', textAlign: 'center' }}>
                     <h1>Layout não encontrado</h1>
-                    <p>Não existe um layout correspondente ao modelo: <b>{modelName}</b></p>
+                    <p>
+                        Não existe um layout correspondente ao modelo: <b>{modelName}</b>
+                    </p>
                 </main>
             </>
         );

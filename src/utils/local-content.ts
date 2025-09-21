@@ -54,6 +54,21 @@ function readContent(file: string) {
         modelName: content.type
     };
 
+    // Recursivamente adiciona __metadata.modelName às seções e subitens
+    function addModelName(obj: any) {
+        if (Array.isArray(obj)) {
+            obj.forEach(addModelName);
+        } else if (obj && typeof obj === 'object') {
+            if (obj.type && !obj.__metadata) {
+                obj.__metadata = { modelName: obj.type };
+            } else if (obj.type && obj.__metadata && !obj.__metadata.modelName) {
+                obj.__metadata.modelName = obj.type;
+            }
+            Object.values(obj).forEach(addModelName);
+        }
+    }
+    addModelName(content);
+
     return content;
 }
 
