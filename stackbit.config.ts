@@ -1,5 +1,5 @@
 import { defineStackbitConfig, DocumentStringLikeFieldNonLocalized, SiteMapEntry } from '@stackbit/types';
-import { GitContentSource } from '@stackbit/cms-git';
+import { GitSource } from '@stackbit/cms-git';
 import { allModels } from 'sources/local/models';
 
 const gitContentSource = new GitContentSource({
