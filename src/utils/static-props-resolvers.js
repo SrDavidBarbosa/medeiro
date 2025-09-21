@@ -18,7 +18,7 @@ export function resolveStaticProps(urlPath, data) {
             notFound: true,
             page: {
                 __metadata: {
-                    urlPath,
+                    urlPath
                 },
                 error: `Página não encontrada para urlPath: ${urlPath}`
             },
