@@ -2,44 +2,33 @@
 title: Home
 slug: /
 sections:
+  # HERO
   - type: GenericSection
     title:
-      text: Planos de Saúde e Odontológicos que cabem no seu bolso
+      text: "Planos de Saúde e Odontológicos que cabem no seu bolso"
       color: text-dark
       type: TitleBlock
-    subtitle: 'Atendimento rápido, rede nacional e preços acessíveis'
-    text: |+
-      ###### *O melhor plano, porque a saúde vem em primeiro lugar.*
-
+    subtitle: "Atendimento rápido, rede nacional e preços acessíveis"
+    text: "###### *O melhor plano, porque a saúde vem em primeiro lugar.*"
     actions:
-      - label: Fale no WhatsApp
-        altText: Contatar via WhatsApp
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
+      - label: "Fale no WhatsApp"
+        altText: "Contatar via WhatsApp"
+        url: "https://wa.me/5511999999999"
         style: primary
-        elementId: ''
         type: Button
-      - label: SIMULE AGORA
-        altText: Simular Contratação
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
+      - label: "Simule Agora"
+        altText: "Simular Contratação"
+        url: "/planos/"
         style: secondary
-        elementId: ''
         type: Link
     media:
-      url: /images/brand medeiro happy family.png
-      altText: Uma vida mais tranquila
-      elementId: ''
+      url: /images/hero-family.png
+      altText: "Família feliz com saúde"
       type: ImageBlock
     badge:
-      label: Família Feliz é Família Segura
+      label: "Família Feliz é Família Segura"
       color: text-primary
       type: Badge
-    elementId: ''
     colors: bg-light-fg-dark
     styles:
       self:
@@ -47,145 +36,108 @@ sections:
         flexDirection: row
         padding:
           - pt-16
-          - pl-16
           - pb-16
+          - pl-16
           - pr-16
+
+  # BENEFÍCIOS
   - type: FeaturedItemsSection
     title:
-      text: Principais Benefícios
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
+      text: "Por que escolher a Medeiro?"
       type: TitleBlock
-    subtitle: Os números falam por si mesmo
+      color: text-dark
+    subtitle: "Segurança, economia e atendimento humanizado"
     items:
       - type: FeaturedItem
-        title: 100k
-        subtitle: Clientes Satisfeitos
-        text: >
-          Em todo o pais estamos presente. Nossos planos são para todos, pessoas
-          físicas e empresas, pequenas ou grandes empresas.
-        actions: []
-        elementId: null
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
+        title: "Atendimento Humanizado"
+        text: "Consultoria próxima e dedicada, sempre pensando no seu bem-estar."
         image:
-          type: ImageBlock
-          altText: Lightning bolt symbol on red background
-          elementId: ''
           url: /images/icon1.svg
-          styles:
-            self:
-              borderRadius: x-large
-      - title: 100%
-        subtitle: Segurança Total
-        text: >
-          Tudo o que contrata conosco é exatamente o que receberá. Não existem
-          letras pequenas.
+          altText: Atendimento humanizado
+          type: ImageBlock
+      - type: FeaturedItem
+        title: "Cobertura Nacional"
+        text: "Rede ampla em todo o Brasil, para você ser atendido onde estiver."
         image:
           url: /images/icon2.svg
-          altText: Featured icon two
-          elementId: ''
+          altText: Cobertura nacional
           type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            textAlign: left
-            justifyContent: center
-        type: FeaturedItem
-      - title: 2x
-        subtitle: Mais rápidos
-        text: >
-          Estamos comprometidos com você. Temos toda a agilidade necessária para
-          tramitar seu contrato.
+      - type: FeaturedItem
+        title: "Saúde + Odonto"
+        text: "Planos completos para saúde e odontologia em um só lugar."
         image:
           url: /images/icon3.svg
-          altText: Featured icon three
-          elementId: ''
+          altText: Saúde e Odonto
           type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-        type: FeaturedItem
     actions:
-      - label: Conhecer Planos
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
+      - label: "Conhecer Planos"
+        url: "/planos/"
         style: primary
-        elementId: ''
         type: Button
-    badge:
-      label: Temos muito mais
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    elementId: ''
-    variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
       self:
+        textAlign: center
         padding:
-          - pb-16
           - pt-16
+          - pb-16
           - pl-16
           - pr-16
-        justifyContent: center
-      subtitle:
+
+  # PLANOS EM DESTAQUE
+  - type: FeaturedItemsSection
+    title:
+      text: "Planos em Destaque"
+      type: TitleBlock
+    subtitle: "Escolha o que melhor se adapta a você"
+    items:
+      - type: FeaturedItem
+        title: "Plano Essencial"
+        text: "Consultas básicas + exames"
+        actions:
+          - label: "Quero este plano"
+            url: "/forms/"
+            style: primary
+            type: Button
+      - type: FeaturedItem
+        title: "Plano Familiar"
+        text: "Consultas, exames e internações"
+        actions:
+          - label: "Quero este plano"
+            url: "/forms/"
+            style: primary
+            type: Button
+      - type: FeaturedItem
+        title: "Plano Premium"
+        text: "Cobertura completa + odontológico avançado"
+        actions:
+          - label: "Quero este plano"
+            url: "/forms/"
+            style: primary
+            type: Button
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    styles:
+      self:
         textAlign: center
-  - subtitle: Empresas que confiam em nós
+        padding:
+          - pt-16
+          - pb-16
+          - pl-16
+          - pr-16
+
+  # PARCEIROS
+  - type: ImageGallerySection
+    subtitle: "Empresas que confiam em nós"
     images:
-      - url: /images/empathy-logo.svg
-        altText: Empathy logo
+      - url: /images/parceiro1.svg
+        altText: Parceiro 1
         type: ImageBlock
-      - url: /images/wellster-logo.svg
-        altText: Wellster logo
+      - url: /images/parceiro2.svg
+        altText: Parceiro 2
         type: ImageBlock
-      - url: /images/vise-logo.svg
-        altText: Vise logo
-        type: ImageBlock
-      - url: /images/telus-logo.svg
-        altText: Telus logo
-        type: ImageBlock
-      - url: /images/contenful-logo.svg
-        altText: Contentful logo
-        type: ImageBlock
-      - url: /images/sanity-logo.svg
-        altText: Sanity logo
-        type: ImageBlock
-      - url: /images/rangle-logo.svg
-        altText: Rangle logo
+      - url: /images/parceiro3.svg
+        altText: Parceiro 3
         type: ImageBlock
     motion: move-to-left
     colors: bg-light-fg-dark
@@ -194,541 +146,95 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: ImageGallerySection
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
-    variant: three-col-grid
+
+  # DEPOIMENTOS
+  - type: CarouselSection
+    subtitle: "O que os nossos clientes dizem"
+    items:
+      - title: "Atendimento incrível"
+        subtitle: "Maria Souza"
+        text: "A Medeiro realmente se importa com o cliente. Recomendo 100%."
+        image:
+          url: /images/person1.png
+          altText: Cliente Maria
+          type: ImageBlock
+      - title: "Preço justo"
+        subtitle: "João Lima"
+        text: "Finalmente encontrei um plano acessível e confiável."
+        image:
+          url: /images/person2.png
+          altText: Cliente João
+          type: ImageBlock
+    variant: next-prev-nav
+    colors: bg-neutralAlt-fg-dark
+
+  # FAQ
+  - type: FeaturedItemsSection
+    title:
+      text: "Perguntas Frequentes"
+      type: TitleBlock
+      color: text-dark
+    items:
+      - type: FeaturedItem
+        title: "Qual o plano mais barato?"
+        text: "O Plano Essencial já inclui consultas e exames por um valor acessível."
+      - type: FeaturedItem
+        title: "Posso contratar sozinho?"
+        text: "Sim, temos planos individuais, familiares e empresariais."
+      - type: FeaturedItem
+        title: "A Medeiro tem carência?"
+        text: "Cada plano tem suas condições. Fale com nossos consultores para detalhes."
     colors: bg-light-fg-dark
     styles:
       self:
         padding:
           - pt-16
-          - pl-16
           - pb-16
+          - pl-16
           - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
-  - title:
-      text: Tenha seu plano ainda mais barato conosco
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Faça sua cotação
-    text: >
-      Garantimos preço, qualidade e segurança. Somos especialistas em
-      entregar-te o melhor seguro de saúde com as condições que encaixam com sua
-      necessidade.
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
-    badge:
-      label: Principais Benefícios
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: col
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: GenericSection
+
+  # CTA FINAL COM FORMULÁRIO
   - type: GenericSection
     title:
-      text: Grandes Equipes
+      text: "Pronto para contratar seu plano?"
+      type: TitleBlock
       color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Os melhores planos
-    text: |
-      Equipe seu time com segurança total!
-    actions: []
+    subtitle: "Fale agora com nossa equipe"
     media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-    elementId: null
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
-  - title:
-      text: MEI
-      color: text-dark
-      type: TitleBlock
-    subtitle: Conheça detalhes dos planos
-    text: |
-      O plano perfeito para pequenas empresas!
-    actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero2.svg
-      altText: Fun feature preview
-      type: ImageBlock
-    badge:
-      label: Plano feito para os pequenos
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-    type: GenericSection
-  - title:
-      text: Pessoas
-      color: text-dark
-      type: TitleBlock
-    subtitle: De todas as idades
-    text: |
-      A serviço da vida, a segurança não tem idade idade.
-    actions:
-      - label: Saber mais
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: Ver Planos
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero3.svg
-      altText: Dope design preview
-      type: ImageBlock
-    badge:
-      label: PLANO FEITO PARA VOCÊ
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row-reverse
-    type: GenericSection
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
-  - type: CarouselSection
-    title: null
-    subtitle: O que os nossos clientes dizem sobre nós
-    items:
-      - title: Wowwww
-        tagline: Testemunho
-        subtitle: 'Maria Walters, Vale'
-        text: |
-          A medida exata do seguro que precisávamos.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is a plan for arranging elements in such a way as best to
-          accomplish a particular purpose."
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: John Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is how it works, how it functions. Good design doesn't just
-          make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple,
-          that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using
-          Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-    elementId: null
-    variant: next-prev-nav
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-  - title:
-      text: Lista de recursos aqui
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Compare os planos
-    items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first Netlify Create site.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
-        image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: >
-          Learn from the tutorial and build your first awesome Netlify Create
-          site.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: FeaturedItemsSection
-  - title:
-      text: Não existe dúvidas "bobas"
-      color: text-dark
-      type: TitleBlock
-    subtitle: Nosso time está preparado
-    text: |
-      Responderemos seu contato o mais breve possível.
-    media:
+      type: FormBlock
+      elementId: contact-form
       fields:
-        - name: name
+        - name: nome
           label: Nome
-          hideLabel: true
-          placeholder: Seu Nome
+          placeholder: Seu nome
           isRequired: true
-          width: full
           type: TextFormControl
         - name: email
           label: Email
-          hideLabel: true
           placeholder: Seu email
           isRequired: true
-          width: full
           type: EmailFormControl
-        - name: message
+        - name: mensagem
           label: Mensagem
-          hideLabel: true
           placeholder: Sua mensagem
-          width: full
           type: TextareaFormControl
-      elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-6
-            - pb-6
-            - pl-6
-            - pr-6
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
         label: Enviar
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
         style: primary
-        elementId: null
-    badge:
-      label: Fale Conosco
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    type: GenericSection
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        flexDirection: col
+        padding:
+          - pt-16
+          - pb-16
+          - pl-16
+          - pr-16
+
 seo:
-  metaTitle: Medeiro
-  metaDescription: Descubra o plano de saúde perfeito para você.
+  metaTitle: "Medeiro - Planos de Saúde e Odontológicos"
+  metaDescription: "Planos de saúde e odontológicos acessíveis em todo o Brasil. Atendimento humanizado, cobertura nacional e preços justos."
   socialImage: /images/main-hero.jpg
   type: Seo
   addTitleSuffix: true
