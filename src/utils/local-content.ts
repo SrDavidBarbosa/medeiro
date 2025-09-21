@@ -57,6 +57,16 @@ function readContent(file: string) {
             throw Error(`Unhandled file type: ${file}`);
     }
 
+    // Validação de slug e type para páginas (após definição de content)
+    if (file.includes('content/pages/')) {
+        if (!content.slug || typeof content.slug !== 'string' || content.slug.trim() === '' || content.slug.includes('//')) {
+            console.warn(`AVISO: O arquivo ${file} possui slug inválido: '${content.slug}'. O slug deve ser uma string sem barras duplicadas.`);
+        }
+        if (!content.type || typeof content.type !== 'string' || content.type.trim() === '') {
+            console.warn(`AVISO: O arquivo ${file} não possui type válido. O type deve ser uma string.`);
+        }
+    }
+
     // Validação de slug e type para páginas
     if (file.includes('content/pages/')) {
         if (!content.slug || typeof content.slug !== 'string' || content.slug.trim() === '' || content.slug.includes('//')) {
