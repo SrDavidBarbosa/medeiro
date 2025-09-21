@@ -2,7 +2,7 @@ import { defineStackbitConfig, DocumentStringLikeFieldNonLocalized, SiteMapEntry
 import { GitSource } from '@stackbit/cms-git';
 import { allModels } from 'sources/local/models';
 
-const gitContentSource = new GitContentSource({
+const gitContentSource = new GitSource({
     rootPath: __dirname,
     contentDirs: ['content'],
     models: Object.values(allModels),
