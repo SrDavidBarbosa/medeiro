@@ -25,7 +25,7 @@
     "devDependencies": {
         "@algolia/netlify-plugin-crawler": "^1.0.15",
         "@base2/pretty-print-object": "^1.0.2",
-        "@stackbit/cms-git": "^1.0.35",
+        "@stackbit/cms-git": "^0.0.14",
         "@stackbit/types": "^2.1.10",
         "@types/glob": "^8.1.0",
         "@types/react": "^19.1.0",
