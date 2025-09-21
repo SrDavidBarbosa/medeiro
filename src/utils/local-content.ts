@@ -49,10 +49,9 @@ function readContent(file: string) {
     }
 
     // Make Sourcebit-compatible
-    content.__metadata = {
-        id: file.replace(/\\/g, '/'), // Replace backslashes with forward slashes
-        modelName: content.type
-    };
+    if (!content.__metadata) content.__metadata = {};
+    content.__metadata.id = file.replace(/\\/g, '/');
+    content.__metadata.modelName = content.type;
 
     // Recursivamente adiciona __metadata.modelName às seções e subitens
     function addModelName(obj: any) {
