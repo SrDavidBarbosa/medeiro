@@ -1,3 +1,11 @@
 [build]
   command = "npm run build"
   publish = ".next"
+
+[[edge_functions]]
+path = "/lp-saude"
+function = "geo-city"
+
+[[edge_functions]]
+path = "/lp-odonto"
+function = "geo-city"
