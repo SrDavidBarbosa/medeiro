@@ -68,7 +68,7 @@ sections:
           - pl-16
           - pr-16
 
-  # FAQ
+    # FAQ PLANOS
   - type: FeaturedItemsSection
     title:
       text: 'Dúvidas sobre os Planos'
@@ -76,14 +76,14 @@ sections:
       color: text-dark
     items:
       - type: FeaturedItem
-        title: 'Tem plano individual?'
-        text: 'Sim, oferecemos planos individuais, familiares e empresariais.'
+        title: 'Existe período de carência?'
+        text: 'Sim, cada plano tem suas próprias regras de carência, de acordo com a ANS. Consulte nossos consultores para detalhes.'
       - type: FeaturedItem
-        title: 'Qual é o plano mais popular?'
-        text: 'O Plano Familiar é o mais contratado por oferecer equilíbrio entre custo e benefícios.'
+        title: 'Posso incluir dependentes?'
+        text: 'Sim, nossos planos familiares permitem incluir cônjuge, filhos e outros dependentes conforme regulamento.'
       - type: FeaturedItem
-        title: 'Preciso de carência?'
-        text: 'Cada plano tem regras próprias. Consulte nossa equipe para mais detalhes.'
+        title: 'Como funcionam os reajustes?'
+        text: 'Os reajustes seguem as normas da ANS e variam conforme o tipo de plano (individual, familiar ou empresarial).'
     colors: bg-light-fg-dark
     styles:
       self:

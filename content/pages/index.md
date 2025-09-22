@@ -5,28 +5,28 @@ sections:
   # HERO
   - type: GenericSection
     title:
-      text: "Planos de Saúde e Odontológicos que cabem no seu bolso"
+      text: 'Planos de Saúde e Odontológicos que cabem no seu bolso'
       color: text-dark
       type: TitleBlock
-    subtitle: "Atendimento rápido, rede nacional e preços acessíveis"
-    text: "###### *O melhor plano, porque a saúde vem em primeiro lugar.*"
+    subtitle: 'Atendimento rápido, rede nacional e preços acessíveis'
+    text: '###### *O melhor plano, porque a saúde vem em primeiro lugar.*'
     actions:
-      - label: "Fale no WhatsApp"
-        altText: "Contatar via WhatsApp"
-        url: "https://wa.me/5511999999999"
+      - label: 'Fale no WhatsApp'
+        altText: 'Contatar via WhatsApp'
+        url: 'https://wa.me/5511999999999'
         style: primary
         type: Button
-      - label: "Simule Agora"
-        altText: "Simular Contratação"
-        url: "/planos/"
+      - label: 'Simule Agora'
+        altText: 'Simular Contratação'
+        url: '/planos/'
         style: secondary
         type: Link
     media:
       url: /images/hero-family.png
-      altText: "Família feliz com saúde"
+      altText: 'Família feliz com saúde'
       type: ImageBlock
     badge:
-      label: "Família Feliz é Família Segura"
+      label: 'Família Feliz é Família Segura'
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -43,35 +43,35 @@ sections:
   # BENEFÍCIOS
   - type: FeaturedItemsSection
     title:
-      text: "Por que escolher a Medeiro?"
+      text: 'Por que escolher a Medeiro?'
       type: TitleBlock
       color: text-dark
-    subtitle: "Segurança, economia e atendimento humanizado"
+    subtitle: 'Segurança, economia e atendimento humanizado'
     items:
       - type: FeaturedItem
-        title: "Atendimento Humanizado"
-        text: "Consultoria próxima e dedicada, sempre pensando no seu bem-estar."
+        title: 'Atendimento Humanizado'
+        text: 'Consultoria próxima e dedicada, sempre pensando no seu bem-estar.'
         image:
           url: /images/icon1.svg
           altText: Atendimento humanizado
           type: ImageBlock
       - type: FeaturedItem
-        title: "Cobertura Nacional"
-        text: "Rede ampla em todo o Brasil, para você ser atendido onde estiver."
+        title: 'Cobertura Nacional'
+        text: 'Rede ampla em todo o Brasil, para você ser atendido onde estiver.'
         image:
           url: /images/icon2.svg
           altText: Cobertura nacional
           type: ImageBlock
       - type: FeaturedItem
-        title: "Saúde + Odonto"
-        text: "Planos completos para saúde e odontologia em um só lugar."
+        title: 'Saúde + Odonto'
+        text: 'Planos completos para saúde e odontologia em um só lugar.'
         image:
           url: /images/icon3.svg
           altText: Saúde e Odonto
           type: ImageBlock
     actions:
-      - label: "Conhecer Planos"
-        url: "/planos/"
+      - label: 'Conhecer Planos'
+        url: '/planos/'
         style: primary
         type: Button
     colors: bg-neutral-fg-dark
@@ -87,32 +87,32 @@ sections:
   # PLANOS EM DESTAQUE
   - type: FeaturedItemsSection
     title:
-      text: "Planos em Destaque"
+      text: 'Planos em Destaque'
       type: TitleBlock
-    subtitle: "Escolha o que melhor se adapta a você"
+    subtitle: 'Escolha o que melhor se adapta a você'
     items:
       - type: FeaturedItem
-        title: "Plano Essencial"
-        text: "Consultas básicas + exames"
+        title: 'Plano Essencial'
+        text: 'Consultas básicas + exames'
         actions:
-          - label: "Quero este plano"
-            url: "/forms/"
+          - label: 'Quero este plano'
+            url: '/forms/'
             style: primary
             type: Button
       - type: FeaturedItem
-        title: "Plano Familiar"
-        text: "Consultas, exames e internações"
+        title: 'Plano Familiar'
+        text: 'Consultas, exames e internações'
         actions:
-          - label: "Quero este plano"
-            url: "/forms/"
+          - label: 'Quero este plano'
+            url: '/forms/'
             style: primary
             type: Button
       - type: FeaturedItem
-        title: "Plano Premium"
-        text: "Cobertura completa + odontológico avançado"
+        title: 'Plano Premium'
+        text: 'Cobertura completa + odontológico avançado'
         actions:
-          - label: "Quero este plano"
-            url: "/forms/"
+          - label: 'Quero este plano'
+            url: '/forms/'
             style: primary
             type: Button
     variant: three-col-grid
@@ -128,7 +128,7 @@ sections:
 
   # PARCEIROS
   - type: ImageGallerySection
-    subtitle: "Empresas que confiam em nós"
+    subtitle: 'Empresas que confiam em nós'
     images:
       - url: /images/parceiro1.svg
         altText: Parceiro 1
@@ -149,18 +149,18 @@ sections:
 
   # DEPOIMENTOS
   - type: CarouselSection
-    subtitle: "O que os nossos clientes dizem"
+    subtitle: 'O que os nossos clientes dizem'
     items:
-      - title: "Atendimento incrível"
-        subtitle: "Maria Souza"
-        text: "A Medeiro realmente se importa com o cliente. Recomendo 100%."
+      - title: 'Atendimento incrível'
+        subtitle: 'Maria Souza'
+        text: 'A Medeiro realmente se importa com o cliente. Recomendo 100%.'
         image:
           url: /images/person1.png
           altText: Cliente Maria
           type: ImageBlock
-      - title: "Preço justo"
-        subtitle: "João Lima"
-        text: "Finalmente encontrei um plano acessível e confiável."
+      - title: 'Preço justo'
+        subtitle: 'João Lima'
+        text: 'Finalmente encontrei um plano acessível e confiável.'
         image:
           url: /images/person2.png
           altText: Cliente João
@@ -168,22 +168,22 @@ sections:
     variant: next-prev-nav
     colors: bg-neutralAlt-fg-dark
 
-  # FAQ
+  # FAQ HOME
   - type: FeaturedItemsSection
     title:
-      text: "Perguntas Frequentes"
+      text: 'Perguntas Frequentes'
       type: TitleBlock
       color: text-dark
     items:
       - type: FeaturedItem
-        title: "Qual o plano mais barato?"
-        text: "O Plano Essencial já inclui consultas e exames por um valor acessível."
+        title: 'Qual o plano mais barato?'
+        text: 'Nosso Plano Essencial é a opção mais acessível, com consultas e exames básicos incluídos.'
       - type: FeaturedItem
-        title: "Posso contratar sozinho?"
-        text: "Sim, temos planos individuais, familiares e empresariais."
+        title: 'Posso contratar sozinho?'
+        text: 'Sim, temos planos individuais, familiares e empresariais. Você escolhe o que melhor atende às suas necessidades.'
       - type: FeaturedItem
-        title: "A Medeiro tem carência?"
-        text: "Cada plano tem suas condições. Fale com nossos consultores para detalhes."
+        title: 'A Medeiro tem cobertura nacional?'
+        text: 'Sim, nossos planos oferecem atendimento em todo o território brasileiro.'
     colors: bg-light-fg-dark
     styles:
       self:
@@ -196,10 +196,10 @@ sections:
   # CTA FINAL COM FORMULÁRIO
   - type: GenericSection
     title:
-      text: "Pronto para contratar seu plano?"
+      text: 'Pronto para contratar seu plano?'
       type: TitleBlock
       color: text-dark
-    subtitle: "Fale agora com nossa equipe"
+    subtitle: 'Fale agora com nossa equipe'
     media:
       type: FormBlock
       elementId: contact-form
@@ -233,8 +233,8 @@ sections:
           - pr-16
 
 seo:
-  metaTitle: "Medeiro - Planos de Saúde e Odontológicos"
-  metaDescription: "Planos de saúde e odontológicos acessíveis em todo o Brasil. Atendimento humanizado, cobertura nacional e preços justos."
+  metaTitle: 'Medeiro - Planos de Saúde e Odontológicos'
+  metaDescription: 'Planos de saúde e odontológicos acessíveis em todo o Brasil. Atendimento humanizado, cobertura nacional e preços justos.'
   socialImage: /images/main-hero.jpg
   type: Seo
   addTitleSuffix: true
