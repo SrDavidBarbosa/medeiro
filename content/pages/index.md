@@ -13,7 +13,7 @@ sections:
     actions:
       - label: 'Fale no WhatsApp'
         altText: 'Contatar via WhatsApp'
-        url: 'https://wa.me/5511999999999'
+        url: 'https://wa.me/+34640645370'
         style: primary
         type: Button
       - label: 'Simule Agora'
