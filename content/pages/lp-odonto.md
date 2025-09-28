@@ -12,7 +12,7 @@ sections:
     text: '###### *Cuide do seu sorriso agora mesmo*'
     actions: []
     media:
-      url: /images/odonto-hero.png
+      url: /images/main-hero.jpg
       altText: 'Dentista atendendo paciente'
       type: ImageBlock
     colors: bg-light-fg-dark
@@ -95,7 +95,7 @@ sections:
 seo:
   metaTitle: 'Plano Odontológico - Medeiro'
   metaDescription: 'Planos odontológicos completos a partir de R$29/mês. Rede nacional e preços acessíveis.'
-  socialImage: /images/odonto-hero.png
+  socialImage: /images/main-hero.jpg
   type: Seo
   addTitleSuffix: true
 type: PageLayout

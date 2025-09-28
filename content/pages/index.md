@@ -22,7 +22,7 @@ sections:
         style: secondary
         type: Link
     media:
-      url: /images/hero-family.png
+      url: /images/brand medeiro happy family.png
       altText: 'Família feliz com saúde'
       type: ImageBlock
     badge:
@@ -130,13 +130,13 @@ sections:
   - type: ImageGallerySection
     subtitle: 'Empresas que confiam em nós'
     images:
-      - url: /images/parceiro1.svg
+      - url: /images/contenful-logo.svg
         altText: Parceiro 1
         type: ImageBlock
-      - url: /images/parceiro2.svg
+      - url: /images/empathy-logo.svg
         altText: Parceiro 2
         type: ImageBlock
-      - url: /images/parceiro3.svg
+      - url: /images/rangle-logo.svg
         altText: Parceiro 3
         type: ImageBlock
     motion: move-to-left
@@ -155,14 +155,14 @@ sections:
         subtitle: 'Maria Souza'
         text: 'A Medeiro realmente se importa com o cliente. Recomendo 100%.'
         image:
-          url: /images/person1.png
+          url: /images/person-placeholder-light.png
           altText: Cliente Maria
           type: ImageBlock
       - title: 'Preço justo'
         subtitle: 'João Lima'
         text: 'Finalmente encontrei um plano acessível e confiável.'
         image:
-          url: /images/person2.png
+          url: /images/person-placeholder-light.png
           altText: Cliente João
           type: ImageBlock
     variant: next-prev-nav

@@ -11,7 +11,7 @@ sections:
     subtitle: 'Saúde e Odonto para todos os perfis'
     text: 'Escolha o plano ideal para você, sua família ou sua empresa.'
     media:
-      url: /images/planos-hero.png
+      url: /images/main-hero.jpg
       altText: 'Consultor apresentando planos de saúde'
       type: ImageBlock
     colors: bg-light-fg-dark
@@ -118,7 +118,7 @@ sections:
 seo:
   metaTitle: 'Planos Medeiro'
   metaDescription: 'Conheça os planos de saúde e odontológicos da Medeiro. Essencial, Familiar e Premium.'
-  socialImage: /images/planos-hero.png
+  socialImage: /images/main-hero.jpg
   type: Seo
   addTitleSuffix: true
 type: PageLayout

@@ -11,7 +11,7 @@ sections:
     subtitle: 'Atendimento rápido, rede nacional e preços acessíveis'
     text: '###### *Simule agora mesmo seu plano sem compromisso*'
     media:
-      url: /images/saude-hero.png
+      url: /images/main-hero.jpg
       altText: 'Consultoria de plano de saúde'
       type: ImageBlock
     colors: bg-light-fg-dark
@@ -68,7 +68,7 @@ sections:
 seo:
   metaTitle: 'Plano de Saúde - Medeiro'
   metaDescription: 'Simule seu plano de saúde em {{CITY}} com até 30% OFF. Atendimento rápido, cobertura nacional e preços acessíveis.'
-  socialImage: /images/saude-hero.png
+  socialImage: /images/main-hero.jpg
   type: Seo
   addTitleSuffix: true
 type: PageLayout

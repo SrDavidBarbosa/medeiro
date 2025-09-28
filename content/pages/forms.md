@@ -47,7 +47,7 @@ sections:
 seo:
   metaTitle: 'Contato - Medeiro'
   metaDescription: 'Entre em contato com a Medeiro para conhecer nossos planos de saúde e odontológicos. Atendimento rápido e humanizado.'
-  socialImage: /images/forms-hero.png
+  socialImage: /images/main-hero.jpg
   type: Seo
   addTitleSuffix: true
 type: PageLayout
