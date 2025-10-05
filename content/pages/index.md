@@ -11,12 +11,12 @@ sections:
     subtitle: 'Compare, escolha e contrate online com atendimento humano e transparente.'
     text: '###### *O melhor plano, porque a saúde vem em primeiro lugar.*'
     actions:
-      - label: 'Fale no WhatsApp'
+      - label: 'Falar no WhatsApp'
         altText: 'Contatar via WhatsApp'
         url: 'https://wa.me/34640645370?text=Ol%C3%A1!%20Quero%20simular%20um%20plano%20no%20site%20medeiro.com.br'
         style: primary
         type: Button
-      - label: 'Simule Agora'
+      - label: 'Simular meu plano'
         altText: 'Simular Contratação'
         url: '/planos/'
         style: secondary
@@ -26,7 +26,7 @@ sections:
       altText: 'Família feliz com saúde'
       type: ImageBlock
     badge:
-      label: 'Família Feliz é Família Segura'
+      label: '+300 cotações realizadas em 2025'
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -43,31 +43,31 @@ sections:
   # BENEFÍCIOS
   - type: FeaturedItemsSection
     title:
-      text: 'Por que escolher a Medeiro?'
+      text: 'Por que a Medeiro?'
       type: TitleBlock
       color: text-dark
-    subtitle: 'Segurança, economia e atendimento humanizado'
+    subtitle: 'Clareza, agilidade e confiança para sua saúde'
     items:
       - type: FeaturedItem
-        title: 'Atendimento Humanizado'
-        text: 'Consultoria próxima e dedicada, sempre pensando no seu bem-estar.'
+        title: 'Rápido'
+        text: 'Cotação em minutos, contrato digital.'
         image:
           url: /images/icon1.svg
-          altText: Atendimento humanizado
+          altText: Atendimento rápido
           type: ImageBlock
       - type: FeaturedItem
-        title: 'Cobertura Nacional'
-        text: 'Rede ampla em todo o Brasil, para você ser atendido onde estiver.'
+        title: 'Rede mpla'
+        text: 'Operadoras líderes nacionais e regionais.'
         image:
           url: /images/icon2.svg
           altText: Cobertura nacional
           type: ImageBlock
       - type: FeaturedItem
-        title: 'Saúde + Odonto'
-        text: 'Planos completos para saúde e odontologia em um só lugar.'
+        title: 'Humano'
+        text: 'Atendimento consultivo, sem letras miúdas.'
         image:
           url: /images/icon3.svg
-          altText: Saúde e Odonto
+          altText: Humano
           type: ImageBlock
     actions:
       - label: 'Conhecer Planos'
@@ -118,26 +118,26 @@ sections:
     subtitle: 'Escolha o que melhor se adapta a você'
     items:
       - type: FeaturedItem
-        title: 'Plano Essencial'
-        text: 'Consultas básicas + exames'
+        title: 'Plano de Saúde Familiar'
+        text: 'Rede nacional, carência reduzida.'
         actions:
-          - label: 'Quero este plano'
+          - label: 'Quero simular'
             url: '/forms/'
             style: primary
             type: Button
       - type: FeaturedItem
-        title: 'Plano Familiar'
-        text: 'Consultas, exames e internações'
+        title: 'Plano Odonto Essencial'
+        text: 'Cobertura preventiva e emergencial.'
         actions:
-          - label: 'Quero este plano'
+          - label: 'Quero simular'
             url: '/forms/'
             style: primary
             type: Button
       - type: FeaturedItem
-        title: 'Plano Premium'
-        text: 'Cobertura completa + odontológico avançado'
+        title: 'Plano Empresarial MEI/PME'
+        text: 'Condições especiais para CNPJ.'
         actions:
-          - label: 'Quero este plano'
+          - label: 'Quero simular'
             url: '/forms/'
             style: primary
             type: Button
@@ -175,7 +175,7 @@ sections:
 
   # DEPOIMENTOS
   - type: CarouselSection
-    subtitle: 'O que os nossos clientes dizem'
+    subtitle: 'Histórias reais de clientes'
     items:
       - title: 'Atendimento incrível'
         subtitle: 'Maria Souza'
