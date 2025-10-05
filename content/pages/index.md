@@ -5,10 +5,10 @@ sections:
   # HERO
   - type: GenericSection
     title:
-      text: 'Planos de Saúde e Odontológicos que cabem no seu bolso'
+      text: 'Planos de Saúde e Odonto sem complicação'
       color: text-dark
       type: TitleBlock
-    subtitle: 'Atendimento rápido, rede nacional e preços acessíveis'
+    subtitle: 'Compare, escolha e contrate online com atendimento humano e transparente.'
     text: '###### *O melhor plano, porque a saúde vem em primeiro lugar.*'
     actions:
       - label: 'Fale no WhatsApp'
