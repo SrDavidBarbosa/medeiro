@@ -18,6 +18,51 @@ export const Config: Model = {
             localized: false
         },
         {
+            type: 'string',
+            name: 'businessName',
+            label: 'Business name',
+            required: false,
+            hidden: false,
+            localized: false
+        },
+        {
+            type: 'string',
+            name: 'phone',
+            label: 'Phone',
+            required: false,
+            hidden: false,
+            localized: false
+        },
+        {
+            type: 'string',
+            name: 'whatsappNumber',
+            label: 'WhatsApp number',
+            description: 'Displayed and used to build wa.me links (digits only recommended).',
+            required: false,
+            hidden: false,
+            localized: false
+        },
+        {
+            type: 'string',
+            name: 'email',
+            label: 'Email',
+            required: false,
+            hidden: false,
+            localized: false
+        },
+        {
+            type: 'list',
+            name: 'socialProfiles',
+            label: 'Social Profiles',
+            required: false,
+            hidden: false,
+            localized: false,
+            items: {
+                type: 'model',
+                models: ['Social']
+            }
+        },
+        {
             type: 'reference',
             name: 'header',
             label: 'Header configuration',

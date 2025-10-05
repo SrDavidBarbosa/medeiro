@@ -4,7 +4,7 @@ import { globSync } from 'glob';
 import frontmatter from 'front-matter';
 import { allModels } from '../../sources/local/models';
 import { Config } from '../../sources/local/models/Config';
-import { getPageUrl } from './page-utils';
+import { getPageUrl, setEnvironmentVariables } from './page-utils';
 
 // TODO use types?
 
@@ -137,6 +137,7 @@ export function allContent() {
     });
 
     const siteConfig = data.find((e) => e.__metadata.modelName === Config.name);
+    siteConfig.env = { ...(siteConfig.env || {}), ...setEnvironmentVariables() };
 
     resolveReferences(siteConfig, fileToContent);
 

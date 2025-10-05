@@ -45,6 +45,31 @@ function Page(props) {
     const title = seoGenerateTitle(page, site);
     const metaTags = seoGenerateMetaTags(page, site);
     const metaDescription = seoGenerateMetaDescription(page, site);
+    const canonicalUrl = site?.env?.URL && page?.__metadata?.urlPath ? `${site.env.URL}${page.__metadata.urlPath}` : null;
+    const domainUrl = site?.env?.URL || null;
+    const sameAs = Array.isArray(site?.socialProfiles) ? site.socialProfiles.map((p) => p?.url).filter(Boolean) : [];
+    const orgLd = {
+        '@context': 'https://schema.org',
+        '@type': 'InsuranceAgency',
+        name: site?.businessName || 'Medeiro',
+        ...(domainUrl && { url: domainUrl }),
+        ...(site?.email && { email: site.email }),
+        ...(site?.phone && { telephone: site.phone }),
+        ...(sameAs.length ? { sameAs } : {})
+    };
+    const websiteLd = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: site?.businessName || 'Medeiro',
+        ...(domainUrl && { url: domainUrl }),
+        ...(domainUrl && {
+            potentialAction: {
+                '@type': 'SearchAction',
+                target: `${domainUrl}/?q={search_term_string}`,
+                'query-input': 'required name=search_term_string'
+            }
+        })
+    };
     return (
         <>
             <Head>
@@ -57,9 +82,12 @@ function Page(props) {
                     }
                     return <meta key={metaTag.property} name={metaTag.property} content={metaTag.content} />;
                 })}
+                {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
                 <meta name="algolia-site-verification" content="0E8D64A3DE85DEEA" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }} />
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }} />
             </Head>
             <PageLayout page={page} site={site} />
         </>

@@ -1,8 +1,23 @@
 {
     "favicon": "/images/favicon.svg",
+    "header": "content/data/header.json",
     "footer": "content/data/footer.json",
-    "titleSuffix": "Theme Demo",
-    "defaultSocialImage": "/images/main-hero.jpg",
     "type": "Config",
-    "header": "content/data/header.json"
+    "titleSuffix": "Medeiro",
+    "defaultSocialImage": "/images/main-hero.jpg",
+    "env": {
+        "URL": "https://medeiro.com.br"
+    },
+    "businessName": "Medeiro",
+    "phone": "+34 640 64 53 70",
+    "whatsappNumber": "+34 640 64 53 70",
+    "email": "contato@medeiro.com.br",
+    "defaultMetaTags": [
+        { "property": "og:type", "content": "website" },
+        { "property": "og:locale", "content": "pt_BR" },
+        { "property": "og:site_name", "content": "Medeiro" },
+        { "property": "twitter:card", "content": "summary_large_image" },
+        { "property": "twitter:site", "content": "@medeiro" },
+        { "property": "twitter:creator", "content": "@medeiro" }
+    ]
 }

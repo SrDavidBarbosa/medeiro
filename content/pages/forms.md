@@ -24,8 +24,25 @@ sections:
           type: EmailFormControl
         - name: whatsapp
           label: WhatsApp
-          placeholder: Seu WhatsApp
+          placeholder: Seu WhatsApp (apenas números)
+          isRequired: true
           type: TextFormControl
+        - name: interesse
+          label: Interesse
+          defaultValue: Selecione uma opção
+          options:
+            - Plano de Saúde Individual
+            - Plano de Saúde Familiar
+            - Plano de Saúde Empresarial
+            - Plano Odontológico Individual
+            - Plano Odontológico Familiar
+            - Plano Odontológico Empresarial
+          isRequired: false
+          type: SelectFormControl
+        - name: consentimento
+          label: Autorizo o uso dos meus dados para contato (LGPD)
+          isRequired: true
+          type: CheckboxFormControl
         - name: mensagem
           label: Mensagem
           placeholder: Sua mensagem

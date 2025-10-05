@@ -13,7 +13,7 @@ sections:
     actions:
       - label: 'Fale no WhatsApp'
         altText: 'Contatar via WhatsApp'
-        url: 'https://wa.me/34640645370'
+        url: 'https://wa.me/34640645370?text=Ol%C3%A1!%20Quero%20simular%20um%20plano%20no%20site%20medeiro.com.br'
         style: primary
         type: Button
       - label: 'Simule Agora'
@@ -81,6 +81,32 @@ sections:
         padding:
           - pt-16
           - pb-16
+          - pl-16
+          - pr-16
+
+  # COMO FUNCIONA
+  - type: FeaturedItemsSection
+    title:
+      text: 'Como funciona'
+      type: TitleBlock
+      color: text-dark
+    items:
+      - type: FeaturedItem
+        title: '1. Fale conosco'
+        text: 'Converse com um consultor pelo WhatsApp ou formulário.'
+      - type: FeaturedItem
+        title: '2. Receba sua cotação'
+        text: 'Comparamos operadoras e enviamos a melhor opção para você.'
+      - type: FeaturedItem
+        title: '3. Contrate sem burocracia'
+        text: 'Acompanhamos você até a conclusão com segurança.'
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        textAlign: left
+        padding:
+          - pt-12
+          - pb-12
           - pl-16
           - pr-16
 
@@ -200,6 +226,12 @@ sections:
       type: TitleBlock
       color: text-dark
     subtitle: 'Fale agora com nossa equipe'
+    actions:
+      - label: 'Falar no WhatsApp'
+        altText: 'Abrir conversa no WhatsApp'
+        url: 'https://wa.me/34640645370?text=Ol%C3%A1!%20Quero%20simular%20um%20plano%20no%20site%20medeiro.com.br'
+        style: primary
+        type: Button
     media:
       type: FormBlock
       elementId: contact-form
