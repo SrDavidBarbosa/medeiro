@@ -6,7 +6,7 @@
     },
     "text": "Seguros de Vida\n",
     "primaryLinks": {
-        "title": "ProductOS",
+        "title": "Produtos",
         "links": [
             {
                 "label": "Características",
@@ -24,14 +24,6 @@
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
-            },
-            {
-                "label": "Documentação",
-                "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
             }
         ],
         "type": "FooterLinksGroup"
@@ -42,7 +34,7 @@
             {
                 "label": "Quem somos",
                 "altText": "careers page",
-                "url": "/careers",
+                "url": "/quem-somos",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -61,24 +53,6 @@
     },
     "socialLinks": [
         {
-            "altText": "GitHub link",
-            "url": "https://github.com/netlify",
-            "icon": "github",
-            "type": "Social"
-        },
-        {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        },
-        {
-            "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/company/netlify",
-            "icon": "linkedin",
-            "type": "Social"
-        },
-        {
             "altText": "Email link",
             "url": "/",
             "icon": "mail",
@@ -88,7 +62,7 @@
     "legalLinks": [
         {
             "label": "Termos",
-            "url": "/",
+            "url": "/termos",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -96,7 +70,7 @@
         },
         {
             "label": "Privacidade",
-            "url": "/",
+            "url": "/privacidade",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",

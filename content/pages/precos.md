@@ -1,6 +1,6 @@
 ---
 title: Preços
-slug: pricing
+slug: preços
 sections:
   - title:
       text: Preço Flexível
