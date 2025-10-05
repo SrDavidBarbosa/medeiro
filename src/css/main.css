@@ -6,7 +6,10 @@
 
 @layer base {
     body {
-        @apply text-base;
+        @apply text-base antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
     }
     h1,
     .h1,
@@ -18,9 +21,13 @@
     .h4,
     h5,
     h6 {
-        @apply break-words;
+        @apply break-words font-semibold;
         line-height: 1.2;
     }
+    h1, .h1 { @apply text-4xl md:text-5xl lg:text-6xl font-bold; }
+    h2, .h2 { @apply text-3xl md:text-4xl font-bold; }
+    h3, .h3 { @apply text-2xl md:text-3xl font-semibold; }
+    h4, .h4 { @apply text-xl md:text-2xl font-semibold; }
 }
 
 @layer components {
@@ -125,12 +132,12 @@
 
     /* Buttons */
     .sb-component-button {
-        @apply inline-flex justify-center items-center text-center border transition duration-200 ease-in hover:-translate-y-1;
+        @apply inline-flex justify-center items-center text-center border transition duration-200 ease-in hover:-translate-y-1 rounded-lg px-5 py-3 shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/70 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent;
     }
 
     /* Links */
     .sb-component-link {
-        @apply inline-flex justify-center items-center text-center transition duration-200 ease-linear;
+        @apply inline-flex justify-center items-center text-center transition duration-200 ease-linear gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent;
     }
     .sb-component-link-primary {
         @apply text-primary hover:underline;
@@ -144,7 +151,10 @@
         color: initial;
     }
     .sb-checkbox:checked + .sb-label:before {
-        content: '\2713';
+        content: '\\2713';
+    }
+    .sb-input, .sb-select, .sb-textarea {
+        @apply rounded-lg;
     }
 
     /* Image gallery */
@@ -172,6 +182,14 @@
     }
     .sb-carousel-tab-title-active {
         @apply opacity-100;
+    }
+
+    /* Cards */
+    .sb-card {
+        @apply rounded-2xl shadow-sm transition duration-200 ease-in;
+    }
+    .sb-card:hover {
+        @apply -translate-y-1 shadow-md;
     }
 
     /* Color palettes */
