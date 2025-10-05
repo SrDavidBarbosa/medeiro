@@ -19,7 +19,7 @@
             },
             {
                 "label": "Planos",
-                "url": "/pricing",
+                "url": "/planos",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

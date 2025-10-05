@@ -109,7 +109,7 @@ sections:
             borderRadius: large
         type: PricingPlan
       - type: PricingPlan
-        title: Familliar
+        title: Familiar
         price: '64,90'
         details: Mensal
         description: >-

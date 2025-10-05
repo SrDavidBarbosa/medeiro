@@ -15,7 +15,7 @@
     "primaryLinks": [
         {
             "label": "Planos",
-            "url": "/pricing",
+            "url": "/planos",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -72,7 +72,7 @@
             "labelStyle": "secondary"
         },
         {
-            "label": "Odontología",
+            "label": "Odontologia",
             "altText": "Planos Odontológicos",
             "links": [
                 {
@@ -118,7 +118,7 @@
         },
         {
             "label": "Tabela",
-            "url": "/",
+            "url": "/pricing",
             "icon": "chevronBigRight",
             "iconPosition": "right",
             "style": "secondary",

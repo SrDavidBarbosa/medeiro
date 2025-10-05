@@ -37,7 +37,7 @@
                         "$$type": "ImageBlock"
                     },
                     {
-                        "url": "/images/contenful-logo.svg",
+                        "url": "/images/contentful-logo.svg",
                         "altText": "Contentful logo",
                         "elementId": "",
                         "styles": null,
