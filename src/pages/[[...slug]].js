@@ -104,7 +104,10 @@ export async function getStaticProps({ params }) {
     const data = allContent();
     const urlPath = '/' + (params.slug || []).join('/');
     const props = await resolveStaticProps(urlPath, data);
-    return { props };
+    return {
+        props,
+        revalidate: 60 // ISR: revalidate every 60 seconds
+    };
 }
 
 export default Page;
