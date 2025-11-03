@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import PropTypes from 'prop-types';
 
 const SimuladorPlanosAvancado = ({ className = '' }) => {
@@ -13,26 +13,29 @@ const SimuladorPlanosAvancado = ({ className = '' }) => {
     const [precoCalculado, setPrecoCalculado] = useState(null);
     const [loading, setLoading] = useState(false);
 
-    // Dados dos planos (poderiam vir de API)
-    const planos = {
-        individual: {
-            basica: { sem_odontologico: 89.9, com_odontologico: 129.9 },
-            completa: { sem_odontologico: 149.9, com_odontologico: 199.9 },
-            premium: { sem_odontologico: 249.9, com_odontologico: 319.9 }
-        },
-        familiar: {
-            basica: { sem_odontologico: 159.9, com_odontologico: 229.9 },
-            completa: { sem_odontologico: 279.9, com_odontologico: 359.9 },
-            premium: { sem_odontologico: 419.9, com_odontologico: 519.9 }
-        },
-        empresarial: {
-            basica: { sem_odontologico: 69.9, com_odontologico: 99.9 },
-            completa: { sem_odontologico: 119.9, com_odontologico: 159.9 },
-            premium: { sem_odontologico: 189.9, com_odontologico: 239.9 }
-        }
-    };
+    // Dados dos planos (poderiam vir de API) - Otimizado com useMemo
+    const planos = useMemo(
+        () => ({
+            individual: {
+                basica: { sem_odontologico: 89.9, com_odontologico: 129.9 },
+                completa: { sem_odontologico: 149.9, com_odontologico: 199.9 },
+                premium: { sem_odontologico: 249.9, com_odontologico: 319.9 }
+            },
+            familiar: {
+                basica: { sem_odontologico: 159.9, com_odontologico: 229.9 },
+                completa: { sem_odontologico: 279.9, com_odontologico: 359.9 },
+                premium: { sem_odontologico: 419.9, com_odontologico: 519.9 }
+            },
+            empresarial: {
+                basica: { sem_odontologico: 69.9, com_odontologico: 99.9 },
+                completa: { sem_odontologico: 119.9, com_odontologico: 159.9 },
+                premium: { sem_odontologico: 189.9, com_odontologico: 239.9 }
+            }
+        }),
+        []
+    );
 
-    const calcularPreco = () => {
+    const calcularPreco = useCallback(() => {
         if (!formData.idade) return null;
 
         const idade = parseInt(formData.idade);
@@ -47,12 +50,12 @@ const SimuladorPlanosAvancado = ({ className = '' }) => {
         else multiplicador = 2.0;
 
         return (plano * multiplicador).toFixed(2);
-    };
+    }, [formData.idade, formData.planoTipo, formData.cobertura, formData.modalidade, planos]);
 
     useEffect(() => {
         const preco = calcularPreco();
         setPrecoCalculado(preco);
-    }, [formData]);
+    }, [calcularPreco]);
 
     const handleStep1Submit = (e) => {
         e.preventDefault();

@@ -27,8 +27,8 @@ export function useLazyComponent(importFunc: () => Promise<any>, options: LazyCo
                 await new Promise((resolve) => setTimeout(resolve, delay));
             }
 
-            const module = await importFunc();
-            const Component = module.default || module;
+            const loadedModule = await importFunc();
+            const Component = loadedModule.default || loadedModule;
             setComponent(() => Component);
         } catch (err) {
             console.error(`Failed to load component (attempt ${attempt}):`, err);

@@ -1,110 +1,33 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+// i18n desativado para reduzir dependências
+// Para ativar, instale: npm install i18next react-i18next
 
-// Importar traduções
+// Importar traduções (estrutura para futura implementação)
 import ptBR from './locales/pt-BR.json';
 import enUS from './locales/en-US.json';
 import esES from './locales/es-ES.json';
 
-const resources = {
-    'pt-BR': {
-        translation: ptBR
-    },
-    'en-US': {
-        translation: enUS
-    },
-    'es-ES': {
-        translation: esES
-    }
+// Dados de traduções disponíveis para futura implementação
+export const translations = {
+    'pt-BR': ptBR,
+    'en-US': enUS,
+    'es-ES': esES
 };
 
-i18n.use(initReactI18next).init({
-    resources,
-    lng: 'pt-BR', // idioma padrão
-    fallbackLng: 'pt-BR',
+// Função placeholder para futura implementação de i18n
+const t = (key: string, language: string = 'pt-BR') => {
+    const langData = translations[language as keyof typeof translations];
+    return langData?.[key] || key;
+};
 
-    // Configurações de interpolação
-    interpolation: {
-        escapeValue: false
-    },
+export { t };
 
-    // Configurações de detecção
-    detection: {
-        order: ['localStorage', 'navigator', 'htmlTag'],
-        lookupLocalStorage: 'i18nextLng',
-        caches: ['localStorage']
-    },
-
-    // Configurações de performance
-    preload: ['pt-BR', 'en-US', 'es-ES'],
-
-    // Debug mode em desenvolvimento
-    debug: process.env.NODE_ENV === 'development',
-
-    // Configurações de namespace
-    defaultNS: 'translation',
-    ns: ['translation'],
-
-    // Configurações de fallback
-    fallbackLng: {
-        'pt-BR': ['pt-BR'],
-        en: ['en-US'],
-        es: ['es-ES'],
-        default: ['pt-BR']
-    },
-
-    // Configurações de keys
-    keySeparator: '.',
-    nsSeparator: ':',
-
-    // Configurações de pluralização
-    pluralSeparator: '_',
-
-    // Configurações de contexto
-    contextSeparator: '_',
-
-    // Configurações de joined values
-    returnObjects: true,
-
-    // Configurações de save missing
-    saveMissing: process.env.NODE_ENV === 'development',
-    saveMissingTo: 'current',
-
-    // Configurações de update missing
-    updateMissing: false,
-
-    // Configurações de preload
-    preload: ['pt-BR', 'en-US', 'es-ES'],
-
-    // Configurações de cleanup
-    cleanupOutputOnName: false,
-
-    // Configurações de postProcess
-    postProcess: [],
-
-    // Configurações de return emptyString
-    returnEmptyString: true,
-
-    // Configurações de return null
-    returnNull: false,
-
-    // Configurações de return objects
-    returnObjects: true,
-
-    // Configurações de joinArrays
-    joinArrays: '\n',
-
-    // Configurações de appendNamespaceToCIMode
-    appendNamespaceToCIMode: false,
-
-    // Configurações de ignoreJSONStructure
-    ignoreJSONStructure: false,
-
-    // Configurações de supportedLngs
-    supportedLngs: ['pt-BR', 'en-US', 'es-ES'],
-
-    // Configurações de nonExplicitSupportedLngs
-    nonExplicitSupportedLngs: true
-});
+// Placeholder para compatibilidade com código existente
+const i18n = {
+    t,
+    language: 'pt-BR',
+    changeLanguage: (lang: string) => {
+        console.log(`Language changed to: ${lang}`);
+    }
+};
 
 export default i18n;
