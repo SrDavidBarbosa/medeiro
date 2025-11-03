@@ -7,19 +7,19 @@ export function useTheme() {
     useEffect(() => {
         const savedTheme = localStorage.getItem('theme');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        
+
         if (savedTheme) {
             setTheme(savedTheme);
         } else if (prefersDark) {
             setTheme('dark');
         }
-        
+
         setMounted(true);
     }, []);
 
     useEffect(() => {
         if (!mounted) return;
-        
+
         localStorage.setItem('theme', theme);
         document.documentElement.setAttribute('data-theme', theme);
         document.documentElement.classList.remove('light', 'dark');
@@ -27,7 +27,7 @@ export function useTheme() {
     }, [theme, mounted]);
 
     const toggleTheme = () => {
-        setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
+        setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
     };
 
     return {

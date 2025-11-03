@@ -40,7 +40,7 @@ export function useServiceWorker() {
                 // Verificar atualizações
                 registration.addEventListener('updatefound', () => {
                     const newWorker = registration.installing;
-                    
+
                     if (newWorker) {
                         newWorker.addEventListener('statechange', () => {
                             if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
@@ -56,7 +56,6 @@ export function useServiceWorker() {
                         console.log('Cache atualizado:', event.data);
                     }
                 });
-
             } catch (error) {
                 console.error('Erro ao registrar Service Worker:', error);
                 setIsRegistered(false);
@@ -111,7 +110,7 @@ export function useServiceWorker() {
     const sendPushNotification = async (title: string, options?: NotificationOptions) => {
         if ('Notification' in window && 'serviceWorker' in navigator) {
             const permission = await Notification.requestPermission();
-            
+
             if (permission === 'granted') {
                 const registration = await navigator.serviceWorker.ready;
                 await registration.showNotification(title, {

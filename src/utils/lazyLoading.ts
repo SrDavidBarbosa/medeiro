@@ -14,14 +14,8 @@ export function useLazyComponent(importFunc: () => Promise<any>, options: LazyCo
     const [component, setComponent] = useState<React.ComponentType | null>(null);
     const [error, setError] = useState<Error | null>(null);
     const [isLoading, setIsLoading] = useState(false);
-    
-    const {
-        fallback,
-        delay = 0,
-        retry = true,
-        retryDelay = 1000,
-        maxRetries = 3
-    } = options;
+
+    const { fallback, delay = 0, retry = true, retryDelay = 1000, maxRetries = 3 } = options;
 
     const loadComponent = async (attempt = 1) => {
         setIsLoading(true);
@@ -30,7 +24,7 @@ export function useLazyComponent(importFunc: () => Promise<any>, options: LazyCo
         try {
             // Delay opcional
             if (delay > 0) {
-                await new Promise(resolve => setTimeout(resolve, delay));
+                await new Promise((resolve) => setTimeout(resolve, delay));
             }
 
             const module = await importFunc();
@@ -62,7 +56,7 @@ export function useLazyComponent(importFunc: () => Promise<any>, options: LazyCo
     };
 
     return { component, error, isLoading, retryLoad, fallback };
-};
+}
 
 // Hook para preloading de componentes
 export function usePreloadComponent(importFunc: () => Promise<any>) {
@@ -80,7 +74,7 @@ export function usePreloadComponent(importFunc: () => Promise<any>) {
     };
 
     return { preload, isPreloaded };
-};
+}
 
 // Hook para lazy loading de imagens
 export function useLazyImage(src: string, options: { threshold?: number; rootMargin?: string } = {}) {
@@ -117,4 +111,4 @@ export function useLazyImage(src: string, options: { threshold?: number; rootMar
     }, [isInView, src]);
 
     return { imgRef, isLoaded, isInView };
-};
+}

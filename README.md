@@ -1,74 +1,159 @@
-# Content Ops Starter
+# 🏥 Medeiro - Site de Planos de Saúde e Odontológicos
 
-![Content Ops Starter](https://assets.stackbit.com/docs/content-ops-starter-thumb.png)
+## 📋 Visão Geral
 
-Netlify starter that's made for customization with a flexible content model, component library, [visual editing](https://docs.netlify.com/visual-editor/overview/) and [Git Content Source](https://docs.netlify.com/create/content-sources/git/).
+Site institucional para venda de planos de saúde e odontológicos, desenvolvido com Next.js 15.5.0, totalmente responsivo e otimizado para conversão.
 
-**⚡ View demo:** [https://content-ops-starter.netlify.app/](https://content-ops-starter.netlify.app/)
+## 🚀 Tecnologias
 
-## Table of Contents
+- **Framework**: Next.js 15.5.0
+- **Styling**: Tailwind CSS
+- **Linguagem**: JavaScript/TypeScript
+- **Deploy**: Netlify
+- **Testes**: Jest + Testing Library
 
-- [Deploying to Netlify](#deploying-to-netlify)
-- [Develop with Netlify Visual Editor Locally](#develop-with-netlify-visual-editor-locally)
-- [Building for production](#building-for-production)
-- [Setting Up Algolia Search](#setting-up-algolia-search)
-- [Next Steps](#next-steps)
-- [Support](#support)
+## 📁 Estrutura
 
-## Deploying to Netlify
-
-If you click "Deploy to Netlify" button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/content-ops-starter)
-
-## Develop with Netlify Visual Editor Locally
-
-The typical development process is to begin by working locally. Clone this repository, then run `npm install` in its root directory.
-
-Run the Next.js development server:
-
-```txt
-cd content-ops-starter
-npm run dev
+```
+medeiro-1/
+├── src/
+│   ├── components/          # Componentes React
+│   ├── pages/              # Páginas Next.js
+│   ├── utils/              # Utilitários
+│   ├── hooks/              # Hooks customizados
+│   └── css/                # Estilos
+├── content/                # Conteúdo estático (Markdown)
+├── public/                 # Assets públicos
+└── __tests__/              # Testes automatizados
 ```
 
-Install the [Netlify Visual Editor CLI](https://www.npmjs.com/package/@stackbit/cli). Then open a new terminal window in the same project directory and run the Netlify visual editor dev server:
+## 🎯 Funcionalidades Implementadas
 
-```txt
-npm install -g @stackbit/cli
-stackbit dev
+### ✅ **Core Features**
+
+- [x] Site responsivo (mobile-first)
+- [x] SEO otimizado (meta tags completas)
+- [x] Performance otimizada (ISR)
+- [x] PWA ready (manifest, service worker)
+- [x] Acessibilidade WCAG 2.1
+
+### ✅ **Business Features**
+
+- [x] **Simulador de Planos Inteligente** - Formulário conversacional que gera leads
+- [x] **Integração WhatsApp** - Contratação direta via WhatsApp Business
+- [x] **Sistema de Temas** - Claro/escuro automático
+- [x] **Multi-idioma** - PT/EN/ES (i18n)
+
+### ✅ **DevOps**
+
+- [x] **CI/CD Pipeline** - GitHub Actions
+- [x] **Testes Automatizados** - Jest + Coverage
+- [x] **Monitoramento** - Sentry (error tracking)
+- [x] **Qualidade de Código** - ESLint + Prettier
+
+## 🎮 Como Usar
+
+### **Desenvolvimento**
+
+```bash
+npm install          # Instalar dependências
+npm run dev          # Rodar em desenvolvimento
 ```
 
-This outputs your own Netlify visual editor URL. Open this, register, or sign in, and you will be directed to Netlify's visual editor for your new project.
+### **Produção**
 
-![Next.js Dev + Visual Editor Dev](https://assets.stackbit.com/docs/next-dev-stackbit-dev.png)
-
-## Building for production
-
-To build a static site for production, run the following command
-
-```shell
-npm run build
+```bash
+npm run build        # Build de produção
+npm start           # Iniciar servidor
 ```
 
-## Setting Up Algolia Search
+### **Qualidade**
 
-This starter includes Algolia search integration. To set it up:
+```bash
+npm run lint        # Verificar código
+npm test            # Executar testes
+npm run format      # Formatar código
+```
 
-1. Create an [Algolia](https://www.algolia.com/) account
-2. Create a new application and index
-3. Set the following environment variables:
-   - `NEXT_PUBLIC_ALGOLIA_APP_ID` - Your Algolia application ID
-   - `NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY` - Your Algolia search-only API key
-   - `NEXT_PUBLIC_ALGOLIA_INDEX_NAME` - Your index name
+## 🎯 Simulador de Planos
 
-## Next Steps
+### **Como Acessar:**
 
-Here are a few suggestions on what to do next if you're new to Netlify visual editor:
+1. Página inicial: http://localhost:3000
+2. Clique em "Simular meu plano"
+3. Ou acesse diretamente: http://localhost:3000/simulador
 
-- Learn [Netlify visual editor overview](https://docs.netlify.com/visual-editor/visual-editing/)
-- Check [Netlify visual editor reference documentation](https://visual-editor-reference.netlify.com/)
+### **Funcionalidades:**
 
-## Support
+- ✅ Formulário inteligente em etapas
+- ✅ Cálculo automático de preços
+- ✅ Integração WhatsApp para contratação
+- ✅ Interface responsiva e moderna
+- ✅ UX otimizada para conversão
 
-If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
+## 📊 Métricas e Analytics
+
+### **Performance**
+
+- ISR implementado (revalidação a cada 60s)
+- Otimização de imagens (Next.js Image)
+- Lazy loading automático
+- Service Worker para cache
+
+### **SEO**
+
+- Meta tags completas (Open Graph, Twitter Cards)
+- Schema.org estruturado
+- Canonical URLs
+- Sitemap automático
+
+### **Monitoramento**
+
+- Sentry para error tracking
+- Jest para testes automatizados
+- ESLint para qualidade de código
+
+## 🚀 Deploy
+
+O projeto está configurado para deploy automático no Netlify via GitHub Actions.
+
+### **Variáveis de Ambiente Necessárias:**
+
+```
+NEXT_PUBLIC_SENTRY_DSN=seu_dsn
+SENTRY_DSN=seu_dsn
+NETLIFY_AUTH_TOKEN=seu_token
+NETLIFY_SITE_ID=seu_site_id
+```
+
+## 📈 Próximos Passos
+
+1. **Personalizar conteúdo** - Edite os arquivos em `content/`
+2. **Configurar WhatsApp** - Altere número no simulador
+3. **Customizar preços** - Modifique dados dos planos
+4. **Analytics** - Configure Google Analytics
+5. **Deploy** - Publique em produção
+
+## 🏆 Benefícios
+
+### **Para o Negócio**
+
+- 🚀 **Conversão otimizada** com simulador inteligente
+- 📱 **Mobile-first** para máxima acessibilidade
+- 🔄 **Integração direta** com WhatsApp Business
+- 📊 **Leads qualificados** automaticamente
+
+### **Para o Desenvolvimento**
+
+- 🧪 **Testes automatizados** para qualidade
+- 🔧 **CI/CD** para deploy confiável
+- 📈 **Monitoramento** em tempo real
+- 🎯 **Code quality** garantida
+
+## 📞 Suporte
+
+Para dúvidas técnicas ou customizações, consulte a documentação do Next.js ou entre em contato.
+
+---
+
+**🎉 Site Medeiro: Profissional, moderno e otimizado para vendas! 🎉**

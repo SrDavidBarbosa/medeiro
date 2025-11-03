@@ -11,8 +11,8 @@ export default function PageLayout(props) {
 
     return (
         <BaseLayout page={page} site={site}>
-            <main 
-                id="main" 
+            <main
+                id="main"
                 className="sb-layout sb-page-layout"
                 role="main"
                 tabIndex={-1}
@@ -24,11 +24,7 @@ export default function PageLayout(props) {
                     </h1>
                 )}
                 {sections.length > 0 && (
-                    <div 
-                        {...(enableAnnotations && { 'data-sb-field-path': 'sections' })}
-                        role="region"
-                        aria-label="Seções da página"
-                    >
+                    <div {...(enableAnnotations && { 'data-sb-field-path': 'sections' })} role="region" aria-label="Seções da página">
                         {sections.map((section, index) => {
                             const Component = getComponent(section.__metadata.modelName);
                             if (!Component) {

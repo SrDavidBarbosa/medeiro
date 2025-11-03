@@ -38,8 +38,7 @@ export const PricingPlan: Model = {
             name: 'description',
             label: 'Description',
             required: false,
-            default:
-                'Sed ut perspiciatis unde omnis, iste natus error sit voluptatem accusantium doloremque.',
+            default: 'Sed ut perspiciatis unde omnis, iste natus error sit voluptatem accusantium doloremque.',
             hidden: false,
             localized: false
         },

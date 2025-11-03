@@ -69,15 +69,7 @@ async function indexObjects(objectsToIndex) {
     const index = client.initIndex(indexName);
     const response = await index.saveObjects(objectsToIndex);
     await index.setSettings({
-        searchableAttributes: [
-            'title',
-            'contentHeading',
-            'authorName',
-            'excerpt',
-            'slug',
-            'contentBody',
-            'date'
-        ],
+        searchableAttributes: ['title', 'contentHeading', 'authorName', 'excerpt', 'slug', 'contentBody', 'date'],
         customRanking: ['desc(date)']
     });
     await client.destroy();

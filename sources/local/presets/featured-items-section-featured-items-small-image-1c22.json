@@ -38,12 +38,7 @@
                         "colors": "bg-neutralAlt-fg-dark",
                         "styles": {
                             "self": {
-                                "padding": [
-                                    "pt-8",
-                                    "pl-8",
-                                    "pb-8",
-                                    "pr-8"
-                                ],
+                                "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
                                 "borderRadius": "x-large",
                                 "flexDirection": "row",
                                 "justifyContent": "center",
@@ -69,12 +64,7 @@
                         "colors": "bg-neutralAlt-fg-dark",
                         "styles": {
                             "self": {
-                                "padding": [
-                                    "pt-8",
-                                    "pl-8",
-                                    "pb-8",
-                                    "pr-8"
-                                ],
+                                "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
                                 "borderRadius": "x-large",
                                 "flexDirection": "row",
                                 "textAlign": "left",
@@ -100,12 +90,7 @@
                         "colors": "bg-neutralAlt-fg-dark",
                         "styles": {
                             "self": {
-                                "padding": [
-                                    "pt-8",
-                                    "pl-8",
-                                    "pb-8",
-                                    "pr-8"
-                                ],
+                                "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
                                 "borderRadius": "x-large",
                                 "flexDirection": "row"
                             }
@@ -142,12 +127,7 @@
                 "backgroundImage": null,
                 "styles": {
                     "self": {
-                        "padding": [
-                            "pb-16",
-                            "pt-16",
-                            "pl-16",
-                            "pr-16"
-                        ],
+                        "padding": ["pb-16", "pt-16", "pl-16", "pr-16"],
                         "justifyContent": "center"
                     },
                     "subtitle": {

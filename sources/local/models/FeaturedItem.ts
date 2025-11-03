@@ -19,8 +19,7 @@ export const FeaturedItem: Model = {
             type: 'string',
             name: 'tagline',
             label: 'Tagline',
-            description:
-                'A small short text above the title. Also used as a tab title in the tab navigation arrangement of carousel section.',
+            description: 'A small short text above the title. Also used as a tab title in the tab navigation arrangement of carousel section.',
             required: false,
             default: 'This is the tagline',
             hidden: false,

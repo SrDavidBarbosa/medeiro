@@ -55,8 +55,7 @@ export const PageLayout: Model = {
             type: 'slug',
             name: 'slug',
             label: 'Slug',
-            description:
-                'The URL path of this page relative to site root. For example, the site root page would be "/", and page would be "new-page"',
+            description: 'The URL path of this page relative to site root. For example, the site root page would be "/", and page would be "new-page"',
             required: true,
             hidden: false,
             localized: false,

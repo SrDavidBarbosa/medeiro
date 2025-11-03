@@ -18,95 +18,93 @@ const resources = {
     }
 };
 
-i18n
-    .use(initReactI18next)
-    .init({
-        resources,
-        lng: 'pt-BR', // idioma padrão
-        fallbackLng: 'pt-BR',
-        
-        // Configurações de interpolação
-        interpolation: {
-            escapeValue: false
-        },
+i18n.use(initReactI18next).init({
+    resources,
+    lng: 'pt-BR', // idioma padrão
+    fallbackLng: 'pt-BR',
 
-        // Configurações de detecção
-        detection: {
-            order: ['localStorage', 'navigator', 'htmlTag'],
-            lookupLocalStorage: 'i18nextLng',
-            caches: ['localStorage']
-        },
+    // Configurações de interpolação
+    interpolation: {
+        escapeValue: false
+    },
 
-        // Configurações de performance
-        preload: ['pt-BR', 'en-US', 'es-ES'],
+    // Configurações de detecção
+    detection: {
+        order: ['localStorage', 'navigator', 'htmlTag'],
+        lookupLocalStorage: 'i18nextLng',
+        caches: ['localStorage']
+    },
 
-        // Debug mode em desenvolvimento
-        debug: process.env.NODE_ENV === 'development',
+    // Configurações de performance
+    preload: ['pt-BR', 'en-US', 'es-ES'],
 
-        // Configurações de namespace
-        defaultNS: 'translation',
-        ns: ['translation'],
+    // Debug mode em desenvolvimento
+    debug: process.env.NODE_ENV === 'development',
 
-        // Configurações de fallback
-        fallbackLng: {
-            'pt-BR': ['pt-BR'],
-            'en': ['en-US'],
-            'es': ['es-ES'],
-            default: ['pt-BR']
-        },
+    // Configurações de namespace
+    defaultNS: 'translation',
+    ns: ['translation'],
 
-        // Configurações de keys
-        keySeparator: '.',
-        nsSeparator: ':',
+    // Configurações de fallback
+    fallbackLng: {
+        'pt-BR': ['pt-BR'],
+        en: ['en-US'],
+        es: ['es-ES'],
+        default: ['pt-BR']
+    },
 
-        // Configurações de pluralização
-        pluralSeparator: '_',
+    // Configurações de keys
+    keySeparator: '.',
+    nsSeparator: ':',
 
-        // Configurações de contexto
-        contextSeparator: '_',
+    // Configurações de pluralização
+    pluralSeparator: '_',
 
-        // Configurações de joined values
-        returnObjects: true,
+    // Configurações de contexto
+    contextSeparator: '_',
 
-        // Configurações de save missing
-        saveMissing: process.env.NODE_ENV === 'development',
-        saveMissingTo: 'current',
+    // Configurações de joined values
+    returnObjects: true,
 
-        // Configurações de update missing
-        updateMissing: false,
+    // Configurações de save missing
+    saveMissing: process.env.NODE_ENV === 'development',
+    saveMissingTo: 'current',
 
-        // Configurações de preload
-        preload: ['pt-BR', 'en-US', 'es-ES'],
+    // Configurações de update missing
+    updateMissing: false,
 
-        // Configurações de cleanup
-        cleanupOutputOnName: false,
+    // Configurações de preload
+    preload: ['pt-BR', 'en-US', 'es-ES'],
 
-        // Configurações de postProcess
-        postProcess: [],
+    // Configurações de cleanup
+    cleanupOutputOnName: false,
 
-        // Configurações de return emptyString
-        returnEmptyString: true,
+    // Configurações de postProcess
+    postProcess: [],
 
-        // Configurações de return null
-        returnNull: false,
+    // Configurações de return emptyString
+    returnEmptyString: true,
 
-        // Configurações de return objects
-        returnObjects: true,
+    // Configurações de return null
+    returnNull: false,
 
-        // Configurações de joinArrays
-        joinArrays: '\n',
+    // Configurações de return objects
+    returnObjects: true,
 
-        // Configurações de appendNamespaceToCIMode
-        appendNamespaceToCIMode: false,
+    // Configurações de joinArrays
+    joinArrays: '\n',
 
-        // Configurações de ignoreJSONStructure
-        ignoreJSONStructure: false,
+    // Configurações de appendNamespaceToCIMode
+    appendNamespaceToCIMode: false,
 
-        // Configurações de supportedLngs
-        supportedLngs: ['pt-BR', 'en-US', 'es-ES'],
+    // Configurações de ignoreJSONStructure
+    ignoreJSONStructure: false,
 
-        // Configurações de nonExplicitSupportedLngs
-        nonExplicitSupportedLngs: true
-    });
+    // Configurações de supportedLngs
+    supportedLngs: ['pt-BR', 'en-US', 'es-ES'],
+
+    // Configurações de nonExplicitSupportedLngs
+    nonExplicitSupportedLngs: true
+});
 
 export default i18n;

@@ -29,12 +29,7 @@
                             "styles": {
                                 "self": {
                                     "borderRadius": "medium",
-                                    "padding": [
-                                        "pt-0",
-                                        "pl-0",
-                                        "pb-0",
-                                        "pr-0"
-                                    ]
+                                    "padding": ["pt-0", "pl-0", "pb-0", "pr-0"]
                                 }
                             },
                             "$$type": "ImageBlock"
@@ -44,12 +39,7 @@
                         "colors": "bg-light-fg-dark",
                         "styles": {
                             "self": {
-                                "padding": [
-                                    "pt-6",
-                                    "pl-6",
-                                    "pb-6",
-                                    "pr-6"
-                                ],
+                                "padding": ["pt-6", "pl-6", "pb-6", "pr-6"],
                                 "textAlign": "left",
                                 "borderColor": "border-neutralAlt",
                                 "borderWidth": 2,
@@ -122,12 +112,7 @@
                 "backgroundImage": null,
                 "styles": {
                     "self": {
-                        "padding": [
-                            "pt-0",
-                            "pl-0",
-                            "pb-0",
-                            "pr-0"
-                        ],
+                        "padding": ["pt-0", "pl-0", "pb-0", "pr-0"],
                         "justifyContent": "center"
                     },
                     "subtitle": {

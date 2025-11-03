@@ -14,7 +14,7 @@
         --surface: 0 0% 100%;
     }
 
-    [data-theme="dark"] {
+    [data-theme='dark'] {
         --primary-color: 220 100% 60%;
         --secondary-color: 220 14% 10%;
         --text-primary: 0 0% 98%;
@@ -27,10 +27,25 @@
         @apply text-base antialiased;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+        font-family:
+            'Inter',
+            ui-sans-serif,
+            system-ui,
+            -apple-system,
+            'Segoe UI',
+            Roboto,
+            'Helvetica Neue',
+            Arial,
+            'Noto Sans',
+            'Apple Color Emoji',
+            'Segoe UI Emoji',
+            'Segoe UI Symbol',
+            sans-serif;
         background-color: hsl(var(--background));
         color: hsl(var(--text-primary));
-        transition: background-color 0.3s ease, color 0.3s ease;
+        transition:
+            background-color 0.3s ease,
+            color 0.3s ease;
     }
 
     h1,
@@ -47,10 +62,22 @@
         line-height: 1.2;
         color: hsl(var(--text-primary));
     }
-    h1, .h1 { @apply text-4xl md:text-5xl lg:text-6xl font-bold; }
-    h2, .h2 { @apply text-3xl md:text-4xl font-bold; }
-    h3, .h3 { @apply text-2xl md:text-3xl font-semibold; }
-    h4, .h4 { @apply text-xl md:text-2xl font-semibold; }
+    h1,
+    .h1 {
+        @apply text-4xl md:text-5xl lg:text-6xl font-bold;
+    }
+    h2,
+    .h2 {
+        @apply text-3xl md:text-4xl font-bold;
+    }
+    h3,
+    .h3 {
+        @apply text-2xl md:text-3xl font-semibold;
+    }
+    h4,
+    .h4 {
+        @apply text-xl md:text-2xl font-semibold;
+    }
 }
 
 @layer components {
@@ -83,11 +110,11 @@
                 margin-top: 0;
             }
         }
-        h1+h2,
-        h2+h3,
-        h3+h4,
-        h4+h5,
-        h5+h6 {
+        h1 + h2,
+        h2 + h3,
+        h3 + h4,
+        h4 + h5,
+        h5 + h6 {
             margin-top: 1.5rem;
         }
         ol {
@@ -176,7 +203,9 @@
     .sb-checkbox:checked + .sb-label:before {
         content: '\\2713';
     }
-    .sb-input, .sb-select, .sb-textarea {
+    .sb-input,
+    .sb-select,
+    .sb-textarea {
         @apply rounded-lg;
     }
 
@@ -335,7 +364,7 @@
 
 @layer utilities {
     .underline-line-through {
-        text-decoration-line: underline line-through
+        text-decoration-line: underline line-through;
     }
     .sb-animate-slide-left {
         animation-name: slideLeft;
@@ -345,10 +374,10 @@
     }
     @keyframes slideLeft {
         from {
-            transform: translate3d(0,0,0)
+            transform: translate3d(0, 0, 0);
         }
         to {
-            transform: translate3d(-50%,0,0)
+            transform: translate3d(-50%, 0, 0);
         }
     }
     .sb-animate-slide-right {
@@ -359,10 +388,10 @@
     }
     @keyframes slideRight {
         from {
-            transform: translate3d(-50%,0,0)
+            transform: translate3d(-50%, 0, 0);
         }
         to {
-            transform: translate3d(0,0,0)
+            transform: translate3d(0, 0, 0);
         }
     }
 }

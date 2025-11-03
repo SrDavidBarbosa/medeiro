@@ -49,12 +49,7 @@
                         },
                         "styles": {
                             "self": {
-                                "padding": [
-                                    "pt-40",
-                                    "pl-4",
-                                    "pb-40",
-                                    "pr-4"
-                                ],
+                                "padding": ["pt-40", "pl-4", "pb-40", "pr-4"],
                                 "alignItems": "center",
                                 "flexDirection": "row-reverse",
                                 "justifyContent": "center"
@@ -114,12 +109,7 @@
                         "backgroundImage": null,
                         "styles": {
                             "self": {
-                                "padding": [
-                                    "pt-16",
-                                    "pl-16",
-                                    "pb-16",
-                                    "pr-16"
-                                ],
+                                "padding": ["pt-16", "pl-16", "pb-16", "pr-16"],
                                 "justifyContent": "center"
                             },
                             "subtitle": {
@@ -152,12 +142,7 @@
                                 "colors": "bg-neutral-fg-dark",
                                 "styles": {
                                     "self": {
-                                        "padding": [
-                                            "pt-8",
-                                            "pl-8",
-                                            "pb-8",
-                                            "pr-8"
-                                        ],
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
                                         "textAlign": "left",
                                         "borderRadius": "x-large",
                                         "flexDirection": "row",
@@ -177,12 +162,7 @@
                                 "colors": "bg-neutral-fg-dark",
                                 "styles": {
                                     "self": {
-                                        "padding": [
-                                            "pt-8",
-                                            "pl-8",
-                                            "pb-8",
-                                            "pr-8"
-                                        ],
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
                                         "textAlign": "left",
                                         "borderRadius": "x-large",
                                         "flexDirection": "row",
@@ -202,12 +182,7 @@
                                 "colors": "bg-neutral-fg-dark",
                                 "styles": {
                                     "self": {
-                                        "padding": [
-                                            "pt-8",
-                                            "pl-8",
-                                            "pb-8",
-                                            "pr-8"
-                                        ],
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
                                         "borderRadius": "x-large",
                                         "flexDirection": "row"
                                     }
@@ -235,12 +210,7 @@
                         "backgroundImage": null,
                         "styles": {
                             "self": {
-                                "padding": [
-                                    "pb-40",
-                                    "pt-16",
-                                    "pl-3",
-                                    "pr-3"
-                                ],
+                                "padding": ["pb-40", "pt-16", "pl-3", "pr-3"],
                                 "justifyContent": "center"
                             },
                             "subtitle": {
