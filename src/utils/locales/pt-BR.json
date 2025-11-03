@@ -1,0 +1,141 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "warning": "Atenção",
+    "info": "Informação",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "close": "Fechar",
+    "open": "Abrir",
+    "search": "Pesquisar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "view": "Visualizar",
+    "share": "Compartilhar",
+    "download": "Download",
+    "upload": "Upload",
+    "print": "Imprimir",
+    "refresh": "Atualizar",
+    "retry": "Tentar novamente",
+    "confirm": "Confirmar",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "blog": "Blog",
+    "contact": "Contato",
+    "healthPlans": "Planos de Saúde",
+    "dentalPlans": "Planos Odontológicos",
+    "enterprise": "Empresarial",
+    "family": "Familiar",
+    "individual": "Individual",
+    "pricing": "Preços",
+    "careers": "Carreiras"
+  },
+  "hero": {
+    "title": "Sua saúde é nossa prioridade",
+    "subtitle": "Planos de saúde e odontológicos para você e sua família com a melhor cobertura e atendimento.",
+    "ctaPrimary": "Conheça nossos planos",
+    "ctaSecondary": "Fale com um especialista"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Oferecemos soluções completas em saúde",
+    "healthPlans": {
+      "title": "Planos de Saúde",
+      "description": "Planos de saúde individuais, familiares e empresariais com ampla rede credenciada."
+    },
+    "dentalPlans": {
+      "title": "Planos Odontológicos",
+      "description": "Cuide do seu sorriso com nossos planos odontológicos acessíveis."
+    },
+    "emergency": {
+      "title": "Atendimento de Emergência",
+      "description": "Atendimento 24h para emergências médicas."
+    }
+  },
+  "features": {
+    "title": "Por que escolher o Medeiro?",
+    "items": [
+      {
+        "title": "Rede Credenciada",
+        "description": "Mais de 10.000 médicos e 500 hospitais em nossa rede."
+      },
+      {
+        "title": "Atendimento 24h",
+        "description": "Suporte médico disponível 24 horas por dia, 7 dias por semana."
+      },
+      {
+        "title": "Preços Competitivos",
+        "description": "Planos acessíveis para todos os perfis e bolso."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "O que nossos clientes dizem",
+    "subtitle": "Veja os depoimentos de quem já confia no Medeiro"
+  },
+  "footer": {
+    "company": "Empresa",
+    "quickLinks": "Links Rápidos",
+    "contact": "Contato",
+    "followUs": "Siga-nos",
+    "copyright": "Todos os direitos reservados",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "cookies": "Política de Cookies"
+  },
+  "forms": {
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "subject": "Assunto",
+    "required": "Obrigatório",
+    "invalidEmail": "E-mail inválido",
+    "sendMessage": "Enviar Mensagem",
+    "namePlaceholder": "Seu nome completo",
+    "emailPlaceholder": "seu@email.com",
+    "phonePlaceholder": "(11) 99999-9999",
+    "messagePlaceholder": "Digite sua mensagem...",
+    "subjectPlaceholder": "Assunto da mensagem"
+  },
+  "seo": {
+    "titleSuffix": " - Medeiro",
+    "description": "Planos de saúde e odontológicos com a melhor cobertura do mercado. Atendimento 24h, rede credenciada qualificada e preços justos.",
+    "keywords": "planos de saúde, plano odontológico, saúde, dentist, atendimento médico"
+  },
+  "blog": {
+    "readMore": "Ler mais",
+    "publishedOn": "Publicado em",
+    "by": "por",
+    "shareArticle": "Compartilhar artigo",
+    "relatedPosts": "Artigos relacionados"
+  },
+  "errors": {
+    "pageNotFound": "Página não encontrada",
+    "pageNotFoundDescription": "A página que você está procurando não existe ou foi movida.",
+    "goHome": "Voltar ao início",
+    "serverError": "Erro interno do servidor",
+    "networkError": "Erro de conexão",
+    "timeoutError": "Tempo limite esgotado"
+  },
+  "accessibility": {
+    "skipToContent": "Pular para o conteúdo",
+    "mainContent": "Ir para conteúdo principal",
+    "navigation": "Ir para navegação",
+    "menu": "Menu",
+    "closeMenu": "Fechar menu",
+    "openMenu": "Abrir menu"
+  }
+}

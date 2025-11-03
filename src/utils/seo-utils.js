@@ -9,11 +9,22 @@ export function seoGenerateMetaTags(page, site) {
 
     const seoTitle = seoGenerateTitle(page, site);
     const ogImage = seoGenerateOgImage(page, site);
+    const metaDescription = seoGenerateMetaDescription(page, site);
 
     pageMetaTags = {
         ...pageMetaTags,
         ...(seoTitle && { 'og:title': seoTitle }),
-        ...(ogImage && { 'og:image': ogImage })
+        ...(ogImage && { 'og:image': ogImage }),
+        ...(metaDescription && { description: metaDescription }),
+        ...(metaDescription && { 'og:description': metaDescription }),
+        ...(metaDescription && { 'twitter:description': metaDescription }),
+        'twitter:card': 'summary_large_image',
+        'twitter:title': seoTitle || '',
+        ...(ogImage && { 'twitter:image': ogImage }),
+        'og:type': page.__metadata?.modelName === 'PostLayout' ? 'article' : 'website',
+        'og:site_name': site.title || '',
+        'article:published_time': page.__metadata?.modelName === 'PostLayout' ? page.publishDate : '',
+        'article:author': page.__metadata?.modelName === 'PostLayout' ? page.author?.name : ''
     };
 
     if (page.seo?.metaTags?.length) {
@@ -24,11 +35,11 @@ export function seoGenerateMetaTags(page, site) {
 
     let metaTags = [];
     Object.keys(pageMetaTags).forEach((key) => {
-        if (pageMetaTags[key] !== null) {
+        if (pageMetaTags[key] !== null && pageMetaTags[key] !== undefined) {
             metaTags.push({
                 property: key,
                 content: pageMetaTags[key],
-                format: key.startsWith('og') ? 'property' : 'name'
+                format: key.startsWith('og') || key.startsWith('article') ? 'property' : 'name'
             });
         }
     });

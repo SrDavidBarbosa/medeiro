@@ -1,0 +1,141 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "share": "Share",
+    "download": "Download",
+    "upload": "Upload",
+    "print": "Print",
+    "refresh": "Refresh",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "healthPlans": "Health Plans",
+    "dentalPlans": "Dental Plans",
+    "enterprise": "Enterprise",
+    "family": "Family",
+    "individual": "Individual",
+    "pricing": "Pricing",
+    "careers": "Careers"
+  },
+  "hero": {
+    "title": "Your health is our priority",
+    "subtitle": "Health and dental plans for you and your family with the best coverage and service.",
+    "ctaPrimary": "Check our plans",
+    "ctaSecondary": "Talk to a specialist"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer complete health solutions",
+    "healthPlans": {
+      "title": "Health Plans",
+      "description": "Individual, family and corporate health plans with a wide network of providers."
+    },
+    "dentalPlans": {
+      "title": "Dental Plans",
+      "description": "Take care of your smile with our affordable dental plans."
+    },
+    "emergency": {
+      "title": "Emergency Care",
+      "description": "24/7 medical emergency support."
+    }
+  },
+  "features": {
+    "title": "Why choose Medeiro?",
+    "items": [
+      {
+        "title": "Provider Network",
+        "description": "Over 10,000 doctors and 500 hospitals in our network."
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Medical support available 24 hours a day, 7 days a week."
+      },
+      {
+        "title": "Competitive Prices",
+        "description": "Affordable plans for all profiles and budgets."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What our customers say",
+    "subtitle": "See testimonials from those who trust Medeiro"
+  },
+  "footer": {
+    "company": "Company",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "copyright": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookies": "Cookie Policy"
+  },
+  "forms": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "subject": "Subject",
+    "required": "Required",
+    "invalidEmail": "Invalid email",
+    "sendMessage": "Send Message",
+    "namePlaceholder": "Your full name",
+    "emailPlaceholder": "your@email.com",
+    "phonePlaceholder": "(11) 99999-9999",
+    "messagePlaceholder": "Type your message...",
+    "subjectPlaceholder": "Message subject"
+  },
+  "seo": {
+    "titleSuffix": " - Medeiro",
+    "description": "Health and dental plans with the best market coverage. 24/7 support, qualified provider network and fair prices.",
+    "keywords": "health plans, dental plan, health, dentist, medical care"
+  },
+  "blog": {
+    "readMore": "Read more",
+    "publishedOn": "Published on",
+    "by": "by",
+    "shareArticle": "Share article",
+    "relatedPosts": "Related articles"
+  },
+  "errors": {
+    "pageNotFound": "Page not found",
+    "pageNotFoundDescription": "The page you are looking for doesn't exist or has been moved.",
+    "goHome": "Go to home",
+    "serverError": "Internal server error",
+    "networkError": "Connection error",
+    "timeoutError": "Request timeout"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to content",
+    "mainContent": "Go to main content",
+    "navigation": "Go to navigation",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu"
+  }
+}

@@ -11,14 +11,24 @@ export default function PageLayout(props) {
 
     return (
         <BaseLayout page={page} site={site}>
-            <main id="main" className="sb-layout sb-page-layout">
+            <main 
+                id="main" 
+                className="sb-layout sb-page-layout"
+                role="main"
+                tabIndex={-1}
+                aria-label={title ? `Conteúdo da página: ${title}` : 'Conteúdo principal da página'}
+            >
                 {title && (
                     <h1 className="sr-only" {...(enableAnnotations && { 'data-sb-field-path': 'title' })}>
                         {title}
                     </h1>
                 )}
                 {sections.length > 0 && (
-                    <div {...(enableAnnotations && { 'data-sb-field-path': 'sections' })}>
+                    <div 
+                        {...(enableAnnotations && { 'data-sb-field-path': 'sections' })}
+                        role="region"
+                        aria-label="Seções da página"
+                    >
                         {sections.map((section, index) => {
                             const Component = getComponent(section.__metadata.modelName);
                             if (!Component) {
@@ -30,6 +40,8 @@ export default function PageLayout(props) {
                                     {...section}
                                     enableAnnotations={enableAnnotations}
                                     {...(enableAnnotations && { 'data-sb-field-path': `sections.${index}` })}
+                                    sectionIndex={index}
+                                    sectionCount={sections.length}
                                 />
                             );
                         })}

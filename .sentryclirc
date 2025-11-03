@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/sentry.json",
+  "dsn": "",
+  "environment": "development",
+  "tracesSampleRate": 0.1,
+  "replaysSessionSampleRate": 0.1,
+  "replaysOnErrorSampleRate": 1.0,
+  "integrations": [
+    "@sentry/replay"
+  ],
+  "org": "your-sentry-org",
+  "project": "your-sentry-project",
+  "telemetry": false,
+  "error": {
+    "enable": true,
+    "sampleRate": 1.0,
+    "tracesSampleRate": 0.1
+  },
+  "performance": {
+    "enable": true,
+    "sampleRate": 0.1
+  },
+  "replays": {
+    "enable": true,
+    "sampleRate": 0.1
+  },
+  "beforeSend": "sentry.beforeSend.js",
+  "beforeSendTransaction": "sentry.beforeSendTransaction.js",
+  "enable": true,
+  "serverName": "",
+  "shutdownTimeout": 5000
+}
