@@ -76,7 +76,7 @@ const SimuladorPlanosAvancado = ({ className = '' }) => {
     };
 
     const openWhatsApp = (tipoContrato) => {
-        const numero = '5511999999999'; // Substituir pelo número real
+        const numero = '34640645370'; // Número WhatsApp Business
         const idade = formData.idade;
         const plano = `${formData.planoTipo} - ${formData.cobertura}`;
         const preco = precoCalculado;

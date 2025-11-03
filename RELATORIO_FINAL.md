@@ -102,7 +102,7 @@ const planos = {
 
 ### **WhatsApp Integration:**
 
-- Número configurável: `5511999999999`
+- Número configurável: `34640645370`
 - Mensagens personalizadas por tipo de CTA
 - Dados do usuário incluídos na mensagem
 - URLs otimizadas para WhatsApp Web/Mobile
@@ -151,7 +151,7 @@ const planos = {
    - Alterar dados dos planos em `SimuladorPlanosAvancado.jsx`
 
 2. **Configurar WhatsApp:**
-   - Substituir `5511999999999` pelo número real
+   - Substituir `34640645370` pelo número real
    - Configurar mensagem automática no WhatsApp Business
 
 3. **Analytics:**

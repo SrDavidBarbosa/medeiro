@@ -149,7 +149,7 @@ export default function SimuladorPlanos() {
 
     const contactarWhatsApp = (plano) => {
         const mensagem = `Olá! Gostaria de contratar o ${plano.nome} por R$ ${plano.precoFinal}/mês. Meus dados: ${dados.idade} anos, ${dados.cep}`;
-        const url = `https://wa.me/5511999999999?text=${encodeURIComponent(mensagem)}`;
+        const url = `https://wa.me/34640645370?text=${encodeURIComponent(mensagem)}`;
         window.open(url, '_blank');
     };
 
@@ -226,7 +226,7 @@ export default function SimuladorPlanos() {
                     <button onClick={resetarSimulacao} className="text-blue-600 hover:text-blue-700 font-medium mr-4">
                         Nova Simulação
                     </button>
-                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 font-medium">
+                    <a href="https://wa.me/34640645370" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 font-medium">
                         Falar com Especialista
                     </a>
                 </div>

@@ -41,7 +41,7 @@
 
 ```javascript
 // URLs configuradas e funcionais:
-https://wa.me/5511999999999?text=...
+https://wa.me/34640645370?text=...
 ```
 
 ### 🔧 **Correções Aplicadas:**
