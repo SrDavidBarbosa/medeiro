@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import { useEffect } from 'react';
-import '../utils/i18n'; // Import i18n configuration
 import '../css/main.css';
 
 export default function MyApp({ Component, pageProps }) {
